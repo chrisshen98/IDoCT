@@ -100,7 +100,7 @@ class Runner:
                 line = line[line.find("[CTEST][GET-PARAM]"):]
                 assert line.startswith("[CTEST][GET-PARAM] "), "wrong line: " + line
                 assert line.split(" ")[0] == "[CTEST][GET-PARAM]"
-                assert line.count(" ") == 1, "more than one whitespace in " + line
+                # assert line.count(" ") == 1, "more than one whitespace in " + line
                 param_name = line.split(" ")[1]
                 if param_name in self.params:
                     is_getter = True 
@@ -110,7 +110,7 @@ class Runner:
                 line = line[line.find("[CTEST][SET-PARAM]"):]
                 assert line.startswith("[CTEST][SET-PARAM] "), "wrong line: " + line
                 assert line.split(" ")[0] == "[CTEST][SET-PARAM]"
-                assert line.count(" ") == 2, "more than one whitespace in " + line
+                # assert line.count(" ") == 2, "more than one whitespace in " + line
                 param_name = line.split(" ")[1]
                 if param_name in self.params:
                     if self.aggressive or self.setInTest(line.split(" ")[2]):
@@ -220,7 +220,8 @@ if __name__ == "__main__":
                   help="Be aggressive when looking for setters and ignore stacktrace.")
     (options, args) = parser.parse_args()
     module = args[0]
-    aggr = options.aggressive
+    # aggr = options.aggressive
+    aggr = True
     runner = Runner(module, aggr)
     runner.run_individual_testmethod()
     print("total time: {} mins".format((time.time() - s) / 60))

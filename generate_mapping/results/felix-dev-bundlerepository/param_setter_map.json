@@ -1,0 +1,398 @@
+{
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testReferral1": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testSpec": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testSpec2": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testSpecBundleNamespace": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testMatchingReq": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testResolveReq": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testResolveInterrupt": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testOptionalResolution": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testMandatoryPackages": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResolverImplTest#testFindUpdatableLocalResource": [
+    "version",
+    "uri",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.RepositoryAdminTest#testResourceFilterOnCapabilities": [
+    "version",
+    "uri",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.RepositoryAdminTest#testRemoveRepository": [
+    "version",
+    "uri",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.FelixRequirementAdapterTest#testDirectiveTranslation": [
+    "filter",
+    "xyz"
+  ],
+  "org.apache.felix.bundlerepository.impl.FelixRequirementAdapterTest#testOtherDirectives": [
+    "filter",
+    "xyz"
+  ],
+  "org.apache.felix.bundlerepository.impl.CapabilityImplTest#testDirectives": [
+    "x",
+    "Y"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryImplTest#testCapabilities": [
+    "version",
+    "uri",
+    "url",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryImplTest#testIdentityCapabilityFilter": [
+    "version",
+    "uri",
+    "url",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryImplTest#testFilterOnCapability": [
+    "version",
+    "uri",
+    "url",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryImplTest#testFilterOnCapabilityExistence": [
+    "version",
+    "uri",
+    "url",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryImplTest#testRepositoryContent": [
+    "version",
+    "uri",
+    "url",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryImplTest#testSystemBundleCapabilities": [
+    "version",
+    "uri",
+    "url",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryXMLTest#testIdentityCapability": [
+    "version",
+    "uri",
+    "url",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryXMLTest#testIdentityCapabilityWithRelativePath": [
+    "version",
+    "uri",
+    "url",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryXMLTest#testIdentityCapabilityForZipWithRelativePath": [
+    "version",
+    "uri",
+    "url",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryXMLTest#testOtherIdentityAttribute": [
+    "version",
+    "uri",
+    "url",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.OSGiRepositoryXMLTest#testContentCapability": [
+    "version",
+    "uri",
+    "url",
+    "license",
+    "type",
+    "mime",
+    "id",
+    "size",
+    "symbolicname",
+    "osgi.content",
+    "[Mock"
+  ],
+  "org.apache.felix.bundlerepository.impl.RepositoryImplTest#testReferral1": [
+    "version",
+    "uri",
+    "id",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.RepositoryImplTest#testReferral2": [
+    "version",
+    "uri",
+    "id",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.LazyStringMapTest#testLazyHashMap": [
+    "42",
+    "zero",
+    "1"
+  ],
+  "org.apache.felix.bundlerepository.impl.DataModelHelperTest#testRequirementFilter": [
+    "version",
+    "license",
+    "type",
+    "mime",
+    "symbolicname",
+    "presentationname",
+    "Bundle-Description",
+    "id",
+    "size",
+    "description",
+    "Provide-Capability",
+    "Import-Package",
+    "Export-Package",
+    "Bundle-Name",
+    "Manifest-Version",
+    "Bundle-ManifestVersion",
+    "uri",
+    "Bundle-Version",
+    "Bundle-SymbolicName",
+    "Bundle-License"
+  ],
+  "org.apache.felix.bundlerepository.impl.DataModelHelperTest#testCapabilities": [
+    "version",
+    "license",
+    "type",
+    "mime",
+    "symbolicname",
+    "presentationname",
+    "Bundle-Description",
+    "id",
+    "size",
+    "description",
+    "Provide-Capability",
+    "Import-Package",
+    "Export-Package",
+    "Bundle-Name",
+    "Manifest-Version",
+    "Bundle-ManifestVersion",
+    "uri",
+    "Bundle-Version",
+    "Bundle-SymbolicName",
+    "Bundle-License"
+  ],
+  "org.apache.felix.bundlerepository.impl.DataModelHelperTest#testGzipResource": [
+    "version",
+    "license",
+    "type",
+    "mime",
+    "symbolicname",
+    "presentationname",
+    "Bundle-Description",
+    "id",
+    "size",
+    "description",
+    "Provide-Capability",
+    "Import-Package",
+    "Export-Package",
+    "Bundle-Name",
+    "Manifest-Version",
+    "Bundle-ManifestVersion",
+    "uri",
+    "Bundle-Version",
+    "Bundle-SymbolicName",
+    "Bundle-License"
+  ],
+  "org.apache.felix.bundlerepository.impl.StaxParserTest#testStaxParser": [
+    "version",
+    "uri",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.StaxParserTest#testPullParser": [
+    "version",
+    "uri",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.StaxParserTest#testPerfs": [
+    "version",
+    "uri",
+    "id",
+    "size",
+    "symbolicname",
+    "presentationname"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeFileResource": [
+    "uri"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeNonExistentFileResource": [
+    "uri"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeNonFileResource": [
+    "uri"
+  ],
+  "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeNonExistentResource": [
+    "uri"
+  ],
+  "org.apache.felix.bundlerepository.impl.NamespaceTranslatorTest#testNamespaceTranslator": [
+    "osgi.wiring.package",
+    "osgi.service",
+    "osgi.wiring.host",
+    "osgi.wiring.bundle"
+  ]
+}
