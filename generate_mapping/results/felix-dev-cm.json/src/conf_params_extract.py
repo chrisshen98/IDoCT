@@ -10,4 +10,5 @@ for file in files:
             # print(param)
             if param not in params:
                 params.append(param)
-print(params)
+for item in params:
+    print(item)

@@ -24,7 +24,8 @@ SRC_SUBDIR = {
     "zookeeper-server": "zookeeper-server",
     "alluxio-core": "core",
     "felix-dev-bundlerepository": "bundlerepository",
-    "felix-dev-cm.json": "cm.json"
+    "felix-dev-cm.json": "cm.json",
+    "felix-dev-configadmin": "configadmin"
 }
 
 MVN_TEST_PATH = {
@@ -34,7 +35,8 @@ MVN_TEST_PATH = {
     "zookeeper-server": os.path.join(CTEST_ZOOKEEPER_DIR, SRC_SUBDIR["zookeeper-server"]),
     "alluxio-core": os.path.join(CTEST_ALLUXIO_DIR, SRC_SUBDIR["alluxio-core"]),
     "felix-dev-bundlerepository": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-bundlerepository"]),
-    "felix-dev-cm.json": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-cm.json"])
+    "felix-dev-cm.json": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-cm.json"]),
+    "felix-dev-configadmin": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-configadmin"])
 }
 
 LOCAL_CONF_PATH = {
@@ -44,7 +46,8 @@ LOCAL_CONF_PATH = {
     "zookeeper-server": "results/zookeeper-server/conf_params.txt",
     "alluxio-core": "results/alluxio-core/conf_params.txt",
     "felix-dev-bundlerepository": "results/felix-dev-bundlerepository/conf_params.txt",
-    "felix-dev-cm.json": "results/felix-dev-cm.json/conf_params.txt"
+    "felix-dev-cm.json": "results/felix-dev-cm.json/conf_params.txt",
+    "felix-dev-configadmin": "results/felix-dev-configadmin/conf_params.txt"
 }
 
 SUREFIRE_SUBDIR = "target/surefire-reports/*"
@@ -77,6 +80,9 @@ CTEST_SUREFIRE_PATH = {
     ],
     "felix-dev-cm.json": [
         os.path.join(CTEST_FELIX_DIR, "cm.json", SUREFIRE_SUBDIR)
+    ],
+    "felix-dev-configadmin": [
+        os.path.join(CTEST_FELIX_DIR, "configadmin", SUREFIRE_SUBDIR)
     ]
 }
 
@@ -103,5 +109,8 @@ LOCAL_SUREFIRE_PATH = {
     ],
     "felix-dev-cm.json": [
         os.path.join("surefire-reports/felix-dev-cm.json", LOCAL_SUREFIRE_SUFFIX)
+    ],
+    "felix-dev-configadmin": [
+        os.path.join("surefire-reports/felix-dev-configadmin", LOCAL_SUREFIRE_SUFFIX)
     ]
 }
