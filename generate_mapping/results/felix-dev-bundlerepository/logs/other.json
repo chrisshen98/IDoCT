@@ -1,1 +1,1 @@
-[]
+["org.apache.felix.bundlerepository.impl.CapabilityImplTest#testDirectives", "org.apache.felix.bundlerepository.impl.LazyStringMapTest#testLazyHashMap", "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeFileResource", "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeNonExistentFileResource", "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeNonFileResource", "org.apache.felix.bundlerepository.impl.ResourceImplTest#testGetSizeNonExistentResource"]
