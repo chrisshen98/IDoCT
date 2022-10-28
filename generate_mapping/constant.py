@@ -23,7 +23,8 @@ SRC_SUBDIR = {
     "hbase-server": "hbase-server",
     "zookeeper-server": "zookeeper-server",
     "alluxio-core": "core",
-    "felix-dev-bundlerepository": "bundlerepository"
+    "felix-dev-bundlerepository": "bundlerepository",
+    "felix-dev-cm.json": "cm.json"
 }
 
 MVN_TEST_PATH = {
@@ -32,7 +33,8 @@ MVN_TEST_PATH = {
     "hbase-server": os.path.join(CTEST_HBASE_DIR, SRC_SUBDIR["hbase-server"]),
     "zookeeper-server": os.path.join(CTEST_ZOOKEEPER_DIR, SRC_SUBDIR["zookeeper-server"]),
     "alluxio-core": os.path.join(CTEST_ALLUXIO_DIR, SRC_SUBDIR["alluxio-core"]),
-    "felix-dev-bundlerepository": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-bundlerepository"])
+    "felix-dev-bundlerepository": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-bundlerepository"]),
+    "felix-dev-cm.json": os.path.join(CTEST_FELIX_DIR, SRC_SUBDIR["felix-dev-cm.json"])
 }
 
 LOCAL_CONF_PATH = {
@@ -41,7 +43,8 @@ LOCAL_CONF_PATH = {
     "hbase-server": "results/hbase-server/conf_params.txt",
     "zookeeper-server": "results/zookeeper-server/conf_params.txt",
     "alluxio-core": "results/alluxio-core/conf_params.txt",
-    "felix-dev-bundlerepository": "results/felix-dev-bundlerepository/conf_params.txt"
+    "felix-dev-bundlerepository": "results/felix-dev-bundlerepository/conf_params.txt",
+    "felix-dev-cm.json": "results/felix-dev-cm.json/conf_params.txt"
 }
 
 SUREFIRE_SUBDIR = "target/surefire-reports/*"
@@ -71,6 +74,9 @@ CTEST_SUREFIRE_PATH = {
     ],
     "felix-dev-bundlerepository": [
         os.path.join(CTEST_FELIX_DIR, "bundlerepository", SUREFIRE_SUBDIR)
+    ],
+    "felix-dev-cm.json": [
+        os.path.join(CTEST_FELIX_DIR, "cm.json", SUREFIRE_SUBDIR)
     ]
 }
 
@@ -94,5 +100,8 @@ LOCAL_SUREFIRE_PATH = {
     ],
     "felix-dev-bundlerepository": [
         os.path.join("surefire-reports/felix-dev-bundlerepository", LOCAL_SUREFIRE_SUFFIX)
+    ],
+    "felix-dev-cm.json": [
+        os.path.join("surefire-reports/felix-dev-cm.json", LOCAL_SUREFIRE_SUFFIX)
     ]
 }

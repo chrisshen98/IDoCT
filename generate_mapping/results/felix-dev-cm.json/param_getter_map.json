@@ -1,0 +1,78 @@
+{
+  "org.apache.felix.cm.json.impl.ConfigurationReaderImplTest#testReadSingleConfiguration": [
+    "text"
+  ],
+  "org.apache.felix.cm.json.impl.ConfigurationReaderImplTest#testReadConfigurationResource": [
+    "text",
+    "port"
+  ],
+  "org.apache.felix.cm.json.impl.ConfigurationReaderImplTest#testReadConfigurationResourceMissingProperties": [
+    "text",
+    "port"
+  ],
+  "org.apache.felix.cm.json.impl.ConfigurationReaderImplTest#testReadBundleConfigurationResource": [
+    "text",
+    "port"
+  ],
+  "org.apache.felix.cm.json.impl.ConfigurationReaderImplTest#testReadInvalidJson": [
+    "text",
+    "port"
+  ],
+  "org.apache.felix.cm.json.impl.OrderedDictionaryTest#testKeys": [
+    "hello",
+    "world",
+    "HELLO",
+    "WORLD",
+    "foo"
+  ],
+  "org.apache.felix.cm.json.impl.OrderedDictionaryTest#testSerialization": [
+    "hello"
+  ],
+  "org.apache.felix.cm.json.impl.TypeConverterTest#testConvertScalarsToJson": [
+    "",
+    "5",
+    "\"a\"",
+    "Byte",
+    "null",
+    "1.0",
+    "3.0",
+    "Integer",
+    "Character",
+    "false",
+    "Short",
+    "true",
+    "Float",
+    "\"hello\""
+  ],
+  "org.apache.felix.cm.json.impl.TypeConverterTest#testConvertScalarArraysToJson": [
+    "",
+    "[true,false]",
+    "int[]",
+    "long[]",
+    "1.0",
+    "Character[]",
+    "2",
+    "Short[]",
+    "\"b\"",
+    "[2.0,1.0]",
+    "char[]",
+    "Byte[]",
+    "[\"a\",\"b\"]",
+    "short[]",
+    "false",
+    "2.0",
+    "double[]",
+    "true",
+    "Float[]",
+    "byte[]",
+    "boolean[]",
+    "1",
+    "Integer[]",
+    "\"a\"",
+    "[\"hello\",\"you\"]",
+    "[2,1]",
+    "\"you\"",
+    "float[]",
+    "\"hello\""
+  ]
+}
