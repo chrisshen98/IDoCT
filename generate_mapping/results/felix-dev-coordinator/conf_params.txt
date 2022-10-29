@@ -1,0 +1,15 @@
+0
+1
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@76ccd017
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@182decdb
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@26f0a63f
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@4361bd48
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@53bd815b
+2
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@2401f4c3
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@7637f22
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@4926097b
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@762efe5d
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@5d22bbb7
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@41a4555e
+org.apache.felix.coordinator.impl.CoordinatorImplTest$MockParticipant@3830f1c0
