@@ -15,7 +15,7 @@ for file in files:
         elif "("+tempClass+")" in line:
             temp = line.split("("+tempClass+")")[0]
             testMethod = temp.split("] ")[0]
-            testMethods.append(tempClass+"#"+testMethod)
+            testMethods.append("\""+tempClass+"#"+testMethod+"\",")
             
 print("\n"+"Test classes:"+"\n")
 toWrite = "{\n"
