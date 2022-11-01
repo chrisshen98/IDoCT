@@ -1,0 +1,108 @@
+[
+    "org.apache.felix.framework.ConnectTest",
+
+
+    "org.apache.felix.framework.ConcurrentBundleUpdateTest",
+
+
+    "org.apache.felix.framework.ServiceObjectsTest",
+
+
+    "org.apache.felix.framework.StartStopBundleTest",
+
+
+    "org.apache.felix.framework.BundleRevisionImplTest",
+
+
+    "org.apache.felix.framework.UninstallBundleTest",
+
+
+    "org.apache.felix.framework.ConcurrentClassLoaderTest",
+
+
+    "org.apache.felix.framework.CollisionHookTest",
+
+
+    "org.apache.felix.framework.EventDispatcherTest",
+
+
+    "org.apache.felix.framework.DTOFactoryTest",
+
+
+    "org.apache.felix.framework.util.UtilTest",
+
+
+    "org.apache.felix.framework.util.WeakZipFileTest",
+
+
+    "org.apache.felix.framework.util.manifestparser.NativeLibraryClauseTest",
+
+
+    "org.apache.felix.framework.util.manifestparser.ManifestParserTest",
+
+
+    "org.apache.felix.framework.ImplicitBootDelegationTest",
+
+
+    "org.apache.felix.framework.ResourceLoadingTest",
+
+
+    "org.apache.felix.framework.PackageAdminImplTest",
+
+
+    "org.apache.felix.framework.ExtensionManagerTest",
+
+
+    "org.apache.felix.framework.CycleDetectionWithWovenClassTest",
+
+
+    "org.apache.felix.framework.ResolveTest",
+
+
+    "org.apache.felix.framework.capabilityset.SimpleFilterTest",
+
+
+    "org.apache.felix.framework.ServiceRegistrationImplTest",
+
+
+    "org.apache.felix.framework.ConcurrencyTest",
+
+
+    "org.apache.felix.framework.MultiReleaseVersionTest",
+
+
+    "org.apache.felix.framework.ServiceRegistryTest",
+
+
+    "org.apache.felix.framework.StartBundleTest",
+
+
+    "org.apache.felix.framework.RequirementsCapabilitiesTest",
+
+
+    "org.apache.felix.framework.LaunchTest",
+
+
+    "org.apache.felix.framework.BootLoaderTest",
+
+
+    "org.apache.felix.framework.BundleWiringImplTest",
+
+
+    "org.apache.felix.framework.URLHandlersTest",
+
+
+    "org.apache.felix.framework.VersionConverterTest",
+
+
+    "org.apache.felix.framework.cache.BundleCacheTest",
+
+
+    "org.apache.felix.framework.FilterTest",
+
+
+    "org.osgi.util.tracker.BundleTrackerTest",
+
+
+    "org.osgi.util.tracker.ServiceTrackerTest"
+]
