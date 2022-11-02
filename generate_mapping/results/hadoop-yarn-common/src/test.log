@@ -1,0 +1,820 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-yarn-common:jar:3.4.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.hadoop:hadoop-yarn:3.4.0-SNAPSHOT, /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/pom.xml, line 78, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 5.4
+[INFO] os.detected.version.major: 5
+[INFO] os.detected.version.minor: 4
+[INFO] os.detected.release: ubuntu
+[INFO] os.detected.release.version: 20.04
+[INFO] os.detected.release.like.ubuntu: true
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] 
+[INFO] ----------------< org.apache.hadoop:hadoop-yarn-common >----------------
+[INFO] Building Apache Hadoop YARN Common 3.4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (create-testdirs) @ hadoop-yarn-common ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- protobuf-maven-plugin:0.5.1:compile (src-compile-protoc) @ hadoop-yarn-common ---
+[INFO] Compiling 1 proto file(s) to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/generated-sources/java
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0:enforce (banned-illegal-imports) @ hadoop-yarn-common ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (replace-generated-sources) @ hadoop-yarn-common ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (replace-sources) @ hadoop-yarn-common ---
+[INFO] Replacement run on 493 files.
+[INFO] 
+[INFO] --- hadoop-maven-plugins:3.4.0-SNAPSHOT:version-info (version-info) @ hadoop-yarn-common ---
+[INFO] SCM: GIT
+[INFO] Computed MD5: 3189dac6d637479ed7db57af3b1d671
+[INFO] 
+[INFO] --- hadoop-maven-plugins:3.4.0-SNAPSHOT:resource-gz (resource-gz) @ hadoop-yarn-common ---
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/jt/jquery.jstree.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/jt/jquery.jstree.js.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-1.11.5/js/jquery.dataTables.min.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-1.11.5/js/jquery.dataTables.min.js.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-1.11.5/css/demo_table.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-1.11.5/css/demo_table.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-1.11.5/css/jui-dt.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-1.11.5/css/jui-dt.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-1.11.5/css/jquery.dataTables.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-1.11.5/css/jquery.dataTables.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-1.11.5/css/custom_datatable.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-1.11.5/css/custom_datatable.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-1.11.5/css/demo_page.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-1.11.5/css/demo_page.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/yarn.dt.plugins.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/yarn.dt.plugins.js.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/jquery/themes-1.9.1/base/jquery-ui.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/jquery/themes-1.9.1/base/jquery-ui.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/jquery/jquery-ui-1.13.2.custom.min.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/jquery/jquery-ui-1.13.2.custom.min.js.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/jquery/jquery-3.6.0.min.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/jquery/jquery-3.6.0.min.js.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/yarn.css to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/yarn.css.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/dt-sorting/natural.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/dt-sorting/natural.js.gz
+[INFO] Compressing /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/webapps/static/federation/federation.js to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/webapps/static/federation/federation.js.gz
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hadoop-yarn-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 54 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ hadoop-yarn-common ---
+[INFO] Compiling 494 source files to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/generated-sources/java/org/apache/hadoop/yarn/proto/YarnSecurityTokenProtos.java: Some input files use or override a deprecated API.
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/generated-sources/java/org/apache/hadoop/yarn/proto/YarnSecurityTokenProtos.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/java/org/apache/hadoop/yarn/nodelabels/store/FSStoreOpHandler.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/java/org/apache/hadoop/yarn/nodelabels/store/FSStoreOpHandler.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- protobuf-maven-plugin:0.5.1:test-compile (src-test-compile-protoc) @ hadoop-yarn-common ---
+[INFO] Skipping mojo execution
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (replace-test-sources) @ hadoop-yarn-common ---
+[INFO] Replacement run on 112 files.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hadoop-yarn-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 26 resources
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (replace-generated-test-sources) @ hadoop-yarn-common ---
+[INFO] Skipping
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ hadoop-yarn-common ---
+[INFO] Compiling 112 source files to /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/test-classes
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/test/java/org/apache/hadoop/yarn/util/TestBoundedAppender.java: Some input files use or override a deprecated API.
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/test/java/org/apache/hadoop/yarn/util/TestBoundedAppender.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/test/java/org/apache/hadoop/yarn/nodelabels/TestCommonNodeLabelsManager.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/test/java/org/apache/hadoop/yarn/nodelabels/TestCommonNodeLabelsManager.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.5:test-jar (default) @ hadoop-yarn-common ---
+[INFO] Building jar: /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/hadoop-yarn-common-3.4.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ hadoop-yarn-common ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.hadoop.yarn.TestContainerLaunchRPC
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.868 s - in org.apache.hadoop.yarn.TestContainerLaunchRPC
+[INFO] org.apache.hadoop.yarn.TestContainerLaunchRPC.testHadoopProtoRPCTimeout  Time elapsed: 3.768 s
+[INFO] Running org.apache.hadoop.yarn.client.TestClientRMProxy
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.824 s - in org.apache.hadoop.yarn.client.TestClientRMProxy
+[INFO] org.apache.hadoop.yarn.client.TestClientRMProxy.testProxyUserCorrectUGI  Time elapsed: 0.721 s
+[INFO] org.apache.hadoop.yarn.client.TestClientRMProxy.testGetRMDelegationTokenService  Time elapsed: 0.024 s
+[INFO] org.apache.hadoop.yarn.client.TestClientRMProxy.testGetAMRMTokenService  Time elapsed: 0.017 s
+[INFO] Running org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.698 s - in org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl.testGetContainersForAppAttempt  Time elapsed: 1.168 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl.testGetApplication  Time elapsed: 0.101 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl.testGetContainer  Time elapsed: 0.094 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl.getApplicationAttemptEntities  Time elapsed: 0.08 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl.getApplicationAttemptEntity  Time elapsed: 0.087 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl.testGetContainers  Time elapsed: 0.088 s
+[INFO] Running org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.15 s - in org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5.testPostEntities  Time elapsed: 1.628 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5.testPostEntitiesToKeepUnderUserDir  Time elapsed: 0.173 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5.testPutDomain  Time elapsed: 0.151 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5.testPutDomainToKeepUnderUserDir  Time elapsed: 0.132 s
+[INFO] Running org.apache.hadoop.yarn.client.api.impl.TestTimelineClient
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.229 s - in org.apache.hadoop.yarn.client.api.impl.TestTimelineClient
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testDelegationTokenOperationsRetry  Time elapsed: 14.509 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPostEntities  Time elapsed: 0.185 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testTimelineClientCleanup  Time elapsed: 1.954 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPostIncompleteEntities  Time elapsed: 0.056 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPutDomainConnectionRefused  Time elapsed: 0.066 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPostEntitiesWithError  Time elapsed: 0.068 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPutDomain  Time elapsed: 0.062 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testDelegationTokenDisabledOnSimpleAuth  Time elapsed: 0.185 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testCheckRetryCount  Time elapsed: 2.638 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPostEntitiesNoResponse  Time elapsed: 0.058 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPostEntitiesConnectionRefused  Time elapsed: 0.066 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testPutDomainNoResponse  Time elapsed: 0.052 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testTimelineConnectorDestroy  Time elapsed: 0.265 s
+[INFO] Running org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.484 s - in org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testSyncCall  Time elapsed: 0.636 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testPostEntities  Time elapsed: 0.09 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testSetTimelineToken  Time elapsed: 0.141 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testExceptionCalls  Time elapsed: 0.093 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testExceptionMultipleRetry  Time elapsed: 2.14 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testASyncCallMerge  Time elapsed: 0.284 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testConfigurableNumberOfMerges  Time elapsed: 0.824 s
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl.testAfterStop  Time elapsed: 0.212 s
+[INFO] Running org.apache.hadoop.yarn.util.TestResourceCalculatorProcessTree
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 s - in org.apache.hadoop.yarn.util.TestResourceCalculatorProcessTree
+[INFO] org.apache.hadoop.yarn.util.TestResourceCalculatorProcessTree.testCreatedInstanceConfigured  Time elapsed: 0.083 s
+[INFO] org.apache.hadoop.yarn.util.TestResourceCalculatorProcessTree.testCreateInstance  Time elapsed: 0.002 s
+[INFO] Running org.apache.hadoop.yarn.util.TestTimelineServiceHelper
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s - in org.apache.hadoop.yarn.util.TestTimelineServiceHelper
+[INFO] org.apache.hadoop.yarn.util.TestTimelineServiceHelper.testMapCastToHashMap  Time elapsed: 0.062 s
+[INFO] Running org.apache.hadoop.yarn.util.TestTimes
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 s - in org.apache.hadoop.yarn.util.TestTimes
+[INFO] org.apache.hadoop.yarn.util.TestTimes.testNegativeStartandFinishTimes  Time elapsed: 0.121 s
+[INFO] org.apache.hadoop.yarn.util.TestTimes.validateISO  Time elapsed: 0.073 s
+[INFO] org.apache.hadoop.yarn.util.TestTimes.testPositiveStartandFinishTimes  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.TestTimes.testFinishTimesAheadOfStartTimes  Time elapsed: 0.007 s
+[INFO] org.apache.hadoop.yarn.util.TestTimes.testNegativeStartTimes  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.TestTimes.testNegativeFinishTimes  Time elapsed: 0.001 s
+[INFO] Running org.apache.hadoop.yarn.util.TestYarnVersionInfo
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.145 s - in org.apache.hadoop.yarn.util.TestYarnVersionInfo
+[INFO] org.apache.hadoop.yarn.util.TestYarnVersionInfo.versionInfoGenerated  Time elapsed: 0.084 s
+[INFO] Running org.apache.hadoop.yarn.util.TestApps
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.293 s - in org.apache.hadoop.yarn.util.TestApps
+[INFO] org.apache.hadoop.yarn.util.TestApps.testSetEnvFromInputPropertyDefault  Time elapsed: 0.167 s
+[INFO] org.apache.hadoop.yarn.util.TestApps.testSetEnvFromInputPropertyCommas  Time elapsed: 0.006 s
+[INFO] org.apache.hadoop.yarn.util.TestApps.testSetEnvFromInputString  Time elapsed: 0.048 s
+[INFO] org.apache.hadoop.yarn.util.TestApps.testSetEnvFromInputProperty  Time elapsed: 0.005 s
+[INFO] org.apache.hadoop.yarn.util.TestApps.testSetEnvFromInputPropertyNull  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.util.TestApps.testSetEnvFromInputPropertyOverrideDefault  Time elapsed: 0.002 s
+[INFO] Running org.apache.hadoop.yarn.util.TestBoundedAppender
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s - in org.apache.hadoop.yarn.util.TestBoundedAppender
+[INFO] org.apache.hadoop.yarn.util.TestBoundedAppender.initWithZeroLimitThrowsException  Time elapsed: 0.059 s
+[INFO] org.apache.hadoop.yarn.util.TestBoundedAppender.appendLastAboveLimitPreservesLastMessagePostfix  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.TestBoundedAppender.nullAppendedNullStringRead  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.TestBoundedAppender.appendMiddleAboveLimitPreservesLastMessageAndMiddlePostfix  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.TestBoundedAppender.appendValuesBelowLimitAreReadCorrectlyInFifoOrder  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.TestBoundedAppender.appendBelowLimitOnceValueIsReadCorrectly  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.769 s - in org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree
+[INFO] org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree.testProcessTreeDump  Time elapsed: 0.435 s
+[INFO] org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree.testProcessTree  Time elapsed: 7.18 s
+[INFO] org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree.testMemForOlderProcesses  Time elapsed: 0.052 s
+[INFO] org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree.testCpuAndMemoryForProcessTree  Time elapsed: 0.041 s
+[INFO] org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree.testDestroyProcessTree  Time elapsed: 0.008 s
+[INFO] Running org.apache.hadoop.yarn.util.resource.TestResourceCalculator
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.61 s - in org.apache.hadoop.yarn.util.resource.TestResourceCalculator
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testRatioWithExtraResource[DefaultResourceCalculator]  Time elapsed: 0.192 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testCompareWithEmptyCluster[DefaultResourceCalculator]  Time elapsed: 0.024 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testCompare[DefaultResourceCalculator]  Time elapsed: 0.023 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testRatioWithNoExtraResource[DefaultResourceCalculator]  Time elapsed: 0.015 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testNormalize[DefaultResourceCalculator]  Time elapsed: 0.014 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testDivisionByZeroRatioNumeratorAndDenominatorIsZero[DefaultResourceCalculator]  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testCompareWithOnlyMandatory[DefaultResourceCalculator]  Time elapsed: 0.01 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testFitsIn[DefaultResourceCalculator]  Time elapsed: 0.017 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testDivisionByZeroRatioDenominatorIsZero[DefaultResourceCalculator]  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testFitsInDiagnosticsCollector[DefaultResourceCalculator]  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testRatioWithExtraResource[DominantResourceCalculator]  Time elapsed: 0.019 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testCompareWithEmptyCluster[DominantResourceCalculator]  Time elapsed: 0.012 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testCompare[DominantResourceCalculator]  Time elapsed: 0.018 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testRatioWithNoExtraResource[DominantResourceCalculator]  Time elapsed: 0.011 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testNormalize[DominantResourceCalculator]  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testDivisionByZeroRatioNumeratorAndDenominatorIsZero[DominantResourceCalculator]  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testCompareWithOnlyMandatory[DominantResourceCalculator]  Time elapsed: 0.01 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testFitsIn[DominantResourceCalculator]  Time elapsed: 0.015 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testDivisionByZeroRatioDenominatorIsZero[DominantResourceCalculator]  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceCalculator.testFitsInDiagnosticsCollector[DominantResourceCalculator]  Time elapsed: 0.018 s
+[INFO] Running org.apache.hadoop.yarn.util.resource.TestResources
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.514 s - in org.apache.hadoop.yarn.util.resource.TestResources
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testCreateSimpleResourceWithSameIntValue  Time elapsed: 0.331 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testAdd  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testSubtract  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testClone  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testCreateResourceWithSameIntValue  Time elapsed: 0.027 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testMultiplyRoundUp  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testMultiplyAndRoundUpCustomResources  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testCreateSimpleResourceWithSameLongValue  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testCompareToWithNoneResource  Time elapsed: 0.002 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testComponentwiseMax  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testComponentwiseMin  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testFitsIn  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testCreateResourceWithSameLongValue  Time elapsed: 0.03 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testMultiply  Time elapsed: 0.002 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testMultiplyAndRoundDown  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testCompareToWithUnboundedResource  Time elapsed: 0.018 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResources.testMultiplyAndAddTo  Time elapsed: 0.019 s
+[INFO] Running org.apache.hadoop.yarn.util.resource.TestResourceUtils
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.889 s - in org.apache.hadoop.yarn.util.resource.TestResourceUtils
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetNodeResourcesRedefineGpuErrors  Time elapsed: 0.35 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testInitializeResourcesMap  Time elapsed: 0.115 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testResourceNameFormatValidation  Time elapsed: 0.002 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetResourceTypes  Time elapsed: 0.011 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetResourceInformationWithDiffUnits  Time elapsed: 0.042 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testMultipleOpsForResourcesWithTags  Time elapsed: 0.058 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetRequestedResourcesFromConfig  Time elapsed: 0.046 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetNodeResourcesConfigErrors  Time elapsed: 0.03 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testResourceUnitParsing  Time elapsed: 0.047 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetNodeResourcesRedefineFpgaErrors  Time elapsed: 0.007 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetResourceTypesConfigErrors  Time elapsed: 0.029 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetResourceInformation  Time elapsed: 0.015 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testGetResourceTypesConfigs  Time elapsed: 0.029 s
+[INFO] org.apache.hadoop.yarn.util.resource.TestResourceUtils.testInitializeResourcesMapErrors  Time elapsed: 0.031 s
+[INFO] Running org.apache.hadoop.yarn.util.TestFSDownload
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.689 s - in org.apache.hadoop.yarn.util.TestFSDownload
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDirDownload  Time elapsed: 0.844 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testUniqueDestinationPath  Time elapsed: 0.048 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testResourceTimestampChangeDuringDownload  Time elapsed: 0.065 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadArchiveZipWithTurkishLocale  Time elapsed: 0.06 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadPatternJar  Time elapsed: 0.038 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadArchive  Time elapsed: 0.061 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadArchiveTgz  Time elapsed: 0.044 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadArchiveZip  Time elapsed: 0.027 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadBadPublic  Time elapsed: 0.019 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownloadPublicWithStatCache  Time elapsed: 0.102 s
+[INFO] org.apache.hadoop.yarn.util.TestFSDownload.testDownload  Time elapsed: 0.28 s
+[INFO] Running org.apache.hadoop.yarn.util.TestRackResolverScriptBasedMapping
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 s - in org.apache.hadoop.yarn.util.TestRackResolverScriptBasedMapping
+[INFO] org.apache.hadoop.yarn.util.TestRackResolverScriptBasedMapping.testScriptName  Time elapsed: 0.192 s
+[INFO] Running org.apache.hadoop.yarn.util.TestLRUCacheHashMap
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.apache.hadoop.yarn.util.TestLRUCacheHashMap
+[INFO] org.apache.hadoop.yarn.util.TestLRUCacheHashMap.testLRUCache  Time elapsed: 0.01 s
+[INFO] Running org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.144 s - in org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender
+[INFO] org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender.testWarningCounts  Time elapsed: 1.068 s
+[INFO] org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender.testPurge  Time elapsed: 5.005 s
+[INFO] org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender.testErrorMessages  Time elapsed: 1.003 s
+[INFO] org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender.testWarningMessages  Time elapsed: 1.001 s
+[INFO] org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender.testErrorCounts  Time elapsed: 1.002 s
+[INFO] org.apache.hadoop.yarn.util.TestLog4jWarningErrorMetricsAppender.testInfoDebugTrace  Time elapsed: 0.002 s
+[INFO] Running org.apache.hadoop.yarn.util.TestRackResolver
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.389 s - in org.apache.hadoop.yarn.util.TestRackResolver
+[INFO] org.apache.hadoop.yarn.util.TestRackResolver.testCaching  Time elapsed: 0.309 s
+[INFO] org.apache.hadoop.yarn.util.TestRackResolver.testMultipleHosts  Time elapsed: 0.011 s
+[INFO] Running org.apache.hadoop.yarn.util.timeline.TestShortenedFlowName
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.522 s - in org.apache.hadoop.yarn.util.timeline.TestShortenedFlowName
+[INFO] org.apache.hadoop.yarn.util.timeline.TestShortenedFlowName.testShortenedFlowName  Time elapsed: 0.445 s
+[INFO] org.apache.hadoop.yarn.util.timeline.TestShortenedFlowName.testRemovingUUID  Time elapsed: 0.001 s
+[INFO] Running org.apache.hadoop.yarn.util.TestAdHocLogDumper
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.147 s - in org.apache.hadoop.yarn.util.TestAdHocLogDumper
+[INFO] org.apache.hadoop.yarn.util.TestAdHocLogDumper.testDumpingSchedulerLogs  Time elapsed: 2.073 s
+[INFO] Running org.apache.hadoop.yarn.util.TestWindowsBasedProcessTree
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.136 s - in org.apache.hadoop.yarn.util.TestWindowsBasedProcessTree
+[WARNING] org.apache.hadoop.yarn.util.TestWindowsBasedProcessTree skipped
+[INFO] Running org.apache.hadoop.yarn.util.TestConverterUtils
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.329 s - in org.apache.hadoop.yarn.util.TestConverterUtils
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testNodeIdWithDefaultPort  Time elapsed: 0.241 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testInvalidAppattemptId  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testConvertUrlWithNoPort  Time elapsed: 0.005 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testContainerIdWithEpoch  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testContainerId  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testContainerIdNull  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testConvertUrlWithUserinfo  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testApplicationId  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.util.TestConverterUtils.testInvalidContainerId  Time elapsed: 0.001 s
+[INFO] Running org.apache.hadoop.yarn.server.security.TestApplicationACLsManager
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.468 s - in org.apache.hadoop.yarn.server.security.TestApplicationACLsManager
+[INFO] org.apache.hadoop.yarn.server.security.TestApplicationACLsManager.testCheckAccessWithPartialACLS  Time elapsed: 0.392 s
+[INFO] org.apache.hadoop.yarn.server.security.TestApplicationACLsManager.testCheckAccess  Time elapsed: 0.011 s
+[INFO] org.apache.hadoop.yarn.server.security.TestApplicationACLsManager.testCheckAccessWithNullACLS  Time elapsed: 0.01 s
+[INFO] Running org.apache.hadoop.yarn.event.TestAsyncDispatcher
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.886 s - in org.apache.hadoop.yarn.event.TestAsyncDispatcher
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testDispatcherMetricsHistogram  Time elapsed: 8.679 s
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testDispatcherOnCloseIfQueueEmpty  Time elapsed: 0.164 s
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testPrintDispatcherEventDetails  Time elapsed: 2.554 s
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testMetricsForDispatcher  Time elapsed: 8.015 s
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testPrintDispatcherEventDetailsAvoidDeadLoop  Time elapsed: 18.351 s
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testDispatchStopOnTimeout  Time elapsed: 2.019 s
+[INFO] org.apache.hadoop.yarn.event.TestAsyncDispatcher.testDrainDispatcherDrainEventsOnStop  Time elapsed: 1.016 s
+[INFO] Running org.apache.hadoop.yarn.webapp.TestSubViews
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.332 s - in org.apache.hadoop.yarn.webapp.TestSubViews
+[INFO] org.apache.hadoop.yarn.webapp.TestSubViews.testSubView  Time elapsed: 1.263 s
+[INFO] Running org.apache.hadoop.yarn.webapp.util.TestWebAppUtils
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.353 s - in org.apache.hadoop.yarn.webapp.util.TestWebAppUtils
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebAppUtils.testGetPassword  Time elapsed: 1.605 s
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebAppUtils.testGetHtmlEscapedURIWithQueryString  Time elapsed: 0.475 s
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebAppUtils.testAppendQueryParams  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebAppUtils.testLoadSslConfiguration  Time elapsed: 1.018 s
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebAppUtils.TestRMWebAppURLRemoteAndLocal  Time elapsed: 0.026 s
+[INFO] Running org.apache.hadoop.yarn.webapp.util.TestWebServiceClient
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.231 s - in org.apache.hadoop.yarn.webapp.util.TestWebServiceClient
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebServiceClient.testGetWebServiceClient  Time elapsed: 0.548 s
+[INFO] org.apache.hadoop.yarn.webapp.util.TestWebServiceClient.testCreateClient  Time elapsed: 1.629 s
+[INFO] Running org.apache.hadoop.yarn.webapp.TestParseRoute
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 s - in org.apache.hadoop.yarn.webapp.TestParseRoute
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testTrailingPaddings  Time elapsed: 0.125 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testDefaultAction  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testDefaultController  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testPartialCapture1  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testPartialCapture2  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testMissingLeadingSlash  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testMissingAction  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testNormalAction  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testLeadingPaddings  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.webapp.TestParseRoute.testDefaultCapture  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.webapp.view.TestTwoColumnCssPage
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.167 s - in org.apache.hadoop.yarn.webapp.view.TestTwoColumnCssPage
+[INFO] org.apache.hadoop.yarn.webapp.view.TestTwoColumnCssPage.shouldNotThrow  Time elapsed: 1.095 s
+[INFO] Running org.apache.hadoop.yarn.webapp.view.TestHtmlPage
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.03 s - in org.apache.hadoop.yarn.webapp.view.TestHtmlPage
+[INFO] org.apache.hadoop.yarn.webapp.view.TestHtmlPage.testShort  Time elapsed: 0.943 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestHtmlPage.testUsual  Time elapsed: 0.025 s
+[INFO] Running org.apache.hadoop.yarn.webapp.view.TestHtmlBlock
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.137 s - in org.apache.hadoop.yarn.webapp.view.TestHtmlBlock
+[INFO] org.apache.hadoop.yarn.webapp.view.TestHtmlBlock.testShortPage  Time elapsed: 1.036 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestHtmlBlock.testUsual  Time elapsed: 0.019 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestHtmlBlock.testShortBlock  Time elapsed: 0.004 s
+[INFO] Running org.apache.hadoop.yarn.webapp.view.TestCommonViews
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.22 s - in org.apache.hadoop.yarn.webapp.view.TestCommonViews
+[INFO] org.apache.hadoop.yarn.webapp.view.TestCommonViews.testJQueryUI  Time elapsed: 1.066 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestCommonViews.testFooterBlock  Time elapsed: 0.022 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestCommonViews.testHeaderBlock  Time elapsed: 0.013 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestCommonViews.testErrorPage  Time elapsed: 0.03 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestCommonViews.testInfoBlock  Time elapsed: 0.01 s
+[INFO] Running org.apache.hadoop.yarn.webapp.view.TestInfoBlock
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.125 s - in org.apache.hadoop.yarn.webapp.view.TestInfoBlock
+[INFO] org.apache.hadoop.yarn.webapp.view.TestInfoBlock.testMultilineInfoBlock  Time elapsed: 1.031 s
+[INFO] org.apache.hadoop.yarn.webapp.view.TestInfoBlock.testJavaScriptInfoBlock  Time elapsed: 0.013 s
+[INFO] Running org.apache.hadoop.yarn.webapp.view.TestTwoColumnLayout
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.187 s - in org.apache.hadoop.yarn.webapp.view.TestTwoColumnLayout
+[INFO] org.apache.hadoop.yarn.webapp.view.TestTwoColumnLayout.shouldNotThrow  Time elapsed: 1.106 s
+[INFO] Running org.apache.hadoop.yarn.webapp.TestWebApp
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.757 s - in org.apache.hadoop.yarn.webapp.TestWebApp
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testYARNWebAppContext  Time elapsed: 1.526 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testDefaultRoutes  Time elapsed: 0.089 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testCreateWithBindAddressNonZeroPort  Time elapsed: 0.089 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testCreateWithPort  Time elapsed: 0.105 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testEncodedUrl  Time elapsed: 0.752 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testCreateWithNonZeroPort  Time elapsed: 0.015 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testPortRanges  Time elapsed: 0.434 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testServePathsNoName  Time elapsed: 0.045 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testCreate  Time elapsed: 0.034 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testCustomRoutes  Time elapsed: 0.333 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testServePaths  Time elapsed: 0.059 s
+[INFO] org.apache.hadoop.yarn.webapp.TestWebApp.testRobotsText  Time elapsed: 0.203 s
+[INFO] Running org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 s - in org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector.testMissingAll  Time elapsed: 0.074 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector.testMissingClass  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector.testMultiClass  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector.testNormal  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestParseSelector.testMissingId  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.763 s - in org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet.testSubViews  Time elapsed: 0.623 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet.testPreformatted  Time elapsed: 0.005 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet.testTable  Time elapsed: 0.02 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet.testScriptStyle  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet.testEnumAttrs  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamlet.testHamlet  Time elapsed: 0.034 s
+[INFO] Running org.apache.hadoop.yarn.webapp.hamlet2.TestHamletImpl
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.948 s - in org.apache.hadoop.yarn.webapp.hamlet2.TestHamletImpl
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamletImpl.testSetSelector  Time elapsed: 0.672 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamletImpl.testSetLinkHref  Time elapsed: 0.027 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamletImpl.testSetScriptSrc  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.webapp.hamlet2.TestHamletImpl.testGeneric  Time elapsed: 0.164 s
+[INFO] Running org.apache.hadoop.yarn.webapp.test.TestWebAppTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.053 s - in org.apache.hadoop.yarn.webapp.test.TestWebAppTests
+[INFO] org.apache.hadoop.yarn.webapp.test.TestWebAppTests.testRequestScope  Time elapsed: 0.961 s
+[INFO] org.apache.hadoop.yarn.webapp.test.TestWebAppTests.testCreateInjector2  Time elapsed: 0.006 s
+[INFO] org.apache.hadoop.yarn.webapp.test.TestWebAppTests.testCreateInjector  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.webapp.test.TestWebAppTests.testInstances  Time elapsed: 0.012 s
+[INFO] Running org.apache.hadoop.yarn.TestYarnUncaughtExceptionHandler
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.563 s - in org.apache.hadoop.yarn.TestYarnUncaughtExceptionHandler
+[INFO] org.apache.hadoop.yarn.TestYarnUncaughtExceptionHandler.testUncaughtExceptionHandlerWithError  Time elapsed: 0.477 s
+[INFO] org.apache.hadoop.yarn.TestYarnUncaughtExceptionHandler.testUncaughtExceptionHandlerWithRuntimeException  Time elapsed: 0.006 s
+[INFO] org.apache.hadoop.yarn.TestYarnUncaughtExceptionHandler.testUncaughtExceptionHandlerWithOutOfMemoryError  Time elapsed: 0.013 s
+[INFO] Running org.apache.hadoop.yarn.ipc.TestRPCUtil
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in org.apache.hadoop.yarn.ipc.TestRPCUtil
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRPCIOExceptionUnwrapping  Time elapsed: 0.011 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRPCRuntimeExceptionUnwrapping  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRemoteIOExceptionUnwrapping  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRemoteYarnExceptionDerivativeUnwrapping  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testUnknownExceptionUnwrapping  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRemoteYarnExceptionUnwrapping  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRemoteIOExceptionDerivativeUnwrapping  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRemoteRuntimeExceptionUnwrapping  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRemoteYarnExceptionWithoutStringConstructor  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testUnexpectedRemoteExceptionUnwrapping  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.ipc.TestRPCUtil.testRPCServiceExceptionUnwrapping  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.TestRPCFactories
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.581 s - in org.apache.hadoop.yarn.TestRPCFactories
+[INFO] org.apache.hadoop.yarn.TestRPCFactories.test  Time elapsed: 0.51 s
+[INFO] Running org.apache.hadoop.yarn.TestContainerResourceIncreaseRPC
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.768 s - in org.apache.hadoop.yarn.TestContainerResourceIncreaseRPC
+[INFO] org.apache.hadoop.yarn.TestContainerResourceIncreaseRPC.testHadoopProtoRPCTimeout  Time elapsed: 3.708 s
+[INFO] Running org.apache.hadoop.yarn.TestRecordFactory
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 s - in org.apache.hadoop.yarn.TestRecordFactory
+[INFO] org.apache.hadoop.yarn.TestRecordFactory.testPbRecordFactory  Time elapsed: 0.153 s
+[INFO] Running org.apache.hadoop.yarn.TestContainerLogAppender
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in org.apache.hadoop.yarn.TestContainerLogAppender
+[INFO] org.apache.hadoop.yarn.TestContainerLogAppender.testAppendInClose  Time elapsed: 0.059 s
+[INFO] Running org.apache.hadoop.yarn.nodelabels.TestNodeLabelUtil
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.307 s - in org.apache.hadoop.yarn.nodelabels.TestNodeLabelUtil
+[INFO] org.apache.hadoop.yarn.nodelabels.TestNodeLabelUtil.testIsNodeAttributesEquals  Time elapsed: 0.242 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestNodeLabelUtil.testAttributeValueAddition  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.697 s - in org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testAddInvalidlabel  Time elapsed: 0.419 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testAddlabelWithExclusivity  Time elapsed: 0.013 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testReplaceLabelsOnHostsShouldUpdateNodesBelongTo  Time elapsed: 0.024 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testLabelsToNodes  Time elapsed: 0.014 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testGetNodeLabelsInfo  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testTrimLabelsWhenAddRemoveNodeLabels  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testAddRemovelabel  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testAddlabelWithCase  Time elapsed: 0.007 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testTrimLabelsWhenModifyLabelsOnNodes  Time elapsed: 0.011 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testLabelsToNodesForSelectedLabels  Time elapsed: 0.01 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testRemoveNodeLabelsInfo  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testRemovelabelWithNodes  Time elapsed: 0.011 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testNoMoreThanOneLabelExistedInOneHost  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testLabelsInfoToNodes  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testAddReplaceRemoveLabelsOnNodes  Time elapsed: 0.019 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testNodeLabelsDisabled  Time elapsed: 0.016 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager.testReplaceLabelsOnNodeInDistributedMode  Time elapsed: 0.019 s
+[INFO] Running org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.017 s - in org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testRecoverWithDistributedNodeLabels[0]  Time elapsed: 0.809 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testRootMkdirOnInitStore[0]  Time elapsed: 0.764 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testSerilizationAfterRecovery[0]  Time elapsed: 0.079 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testRecoverWithMirror[0]  Time elapsed: 0.048 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testEditlogRecover[0]  Time elapsed: 0.046 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testRecoverWithDistributedNodeLabels[1]  Time elapsed: 0.034 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testRootMkdirOnInitStore[1]  Time elapsed: 0.012 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testSerilizationAfterRecovery[1]  Time elapsed: 0.072 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testRecoverWithMirror[1]  Time elapsed: 0.042 s
+[INFO] org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore.testEditlogRecover[1]  Time elapsed: 0.03 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.568 s - in org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock.testAccessDenied  Time elapsed: 1.181 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock.testBlockContainsPortNumForUnavailableAppLog  Time elapsed: 0.059 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock.testBadLogs  Time elapsed: 0.035 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock.testAggregatedLogsBlockHar  Time elapsed: 0.144 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock.testAggregatedLogsBlock  Time elapsed: 0.034 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock.testNoLogs  Time elapsed: 0.031 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.635 s - in org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService.testRefreshLogRetentionSettings  Time elapsed: 1.354 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService.testCheckInterval  Time elapsed: 1.025 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService.testDeletionTwoControllers  Time elapsed: 0.074 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService.testDeletion  Time elapsed: 0.042 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService.testRobustLogDeletion  Time elapsed: 0.017 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.383 s - in org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testAllNull  Time elapsed: 0.295 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testMultipleFileRegex  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testMultipleNodeRegexRequest  Time elapsed: 0.002 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testInvalidQueryStrings  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testContainerIdExactMatch  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testSingleNodeRequest  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testAllSet  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.logaggregation.TestLogAggregationMetaCollector.testMultipleFileBetweenSize  Time elapsed: 0.002 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.754 s - in org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory.testDefaultLogAggregationFileControllerFactory  Time elapsed: 0.538 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory.testClassConfUsed  Time elapsed: 0.021 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory.testLogAggregationFileControllerFactoryClassNotSet  Time elapsed: 0.015 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory.testLogAggregationFileControllerFactory  Time elapsed: 0.062 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory.testNodemanagerConfigurationIsUsed  Time elapsed: 0.02 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory.testDefaultConfUsed  Time elapsed: 0.012 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileController
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.303 s - in org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileController
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileController.testRemoteDirCreationWithCustomUser  Time elapsed: 1.192 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileController.testRemoteDirCreationWithCustomGroup  Time elapsed: 0.013 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileController.testRemoteDirCreationDefault  Time elapsed: 0.014 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.759 s - in org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController.testFetchApplictionLogsHar  Time elapsed: 0.694 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController.testGetLogMetaFilesOfNode  Time elapsed: 0.454 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController.testGetRollOverLogMaxSize  Time elapsed: 0.319 s
+[INFO] org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController.testLogAggregationIndexFileFormat  Time elapsed: 0.206 s
+[INFO] Running org.apache.hadoop.yarn.logaggregation.TestAggregatedLogFormat
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.256 s - in org.apache.hadoop.yarn.logaggregation.TestAggregatedLogFormat
+[WARNING] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogFormat.testForCorruptedAggregatedLogs  Time elapsed: 1.048 s
+[WARNING] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogFormat.testZeroLengthLog  Time elapsed: 0.026 s
+[WARNING] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogFormat skipped
+[WARNING] org.apache.hadoop.yarn.logaggregation.TestAggregatedLogFormat.testReadAcontainerLogs1  Time elapsed: 0.118 s
+[INFO] Running org.apache.hadoop.yarn.TestRpcFactoryProvider
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s - in org.apache.hadoop.yarn.TestRpcFactoryProvider
+[INFO] org.apache.hadoop.yarn.TestRpcFactoryProvider.testFactoryProvider  Time elapsed: 0.209 s
+[INFO] Running org.apache.hadoop.yarn.conf.TestYarnConfiguration
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.554 s - in org.apache.hadoop.yarn.conf.TestYarnConfiguration
+[INFO] org.apache.hadoop.yarn.conf.TestYarnConfiguration.testUpdateConnectAddr  Time elapsed: 0.337 s
+[INFO] org.apache.hadoop.yarn.conf.TestYarnConfiguration.testGetSocketAddressForNMWithHA  Time elapsed: 0.018 s
+[INFO] org.apache.hadoop.yarn.conf.TestYarnConfiguration.testRMWebUrlSpecified  Time elapsed: 0.026 s
+[INFO] org.apache.hadoop.yarn.conf.TestYarnConfiguration.testDefaultRMWebUrl  Time elapsed: 0.063 s
+[INFO] org.apache.hadoop.yarn.conf.TestYarnConfiguration.testGetSocketAddr  Time elapsed: 0.047 s
+[INFO] Running org.apache.hadoop.yarn.conf.TestHAUtil
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.512 s - in org.apache.hadoop.yarn.conf.TestHAUtil
+[INFO] org.apache.hadoop.yarn.conf.TestHAUtil.testVerifyAndSetConfiguration  Time elapsed: 0.378 s
+[INFO] org.apache.hadoop.yarn.conf.TestHAUtil.testGetRMServiceId  Time elapsed: 0.021 s
+[INFO] org.apache.hadoop.yarn.conf.TestHAUtil.testGetRMId  Time elapsed: 0.026 s
+[INFO] org.apache.hadoop.yarn.conf.TestHAUtil.testGetConfKeyForRMInstance  Time elapsed: 0.013 s
+[INFO] Running org.apache.hadoop.yarn.api.TestApplicationId
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in org.apache.hadoop.yarn.api.TestApplicationId
+[INFO] org.apache.hadoop.yarn.api.TestApplicationId.testApplicationId  Time elapsed: 0.225 s
+[INFO] Running org.apache.hadoop.yarn.api.TestNodeId
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in org.apache.hadoop.yarn.api.TestNodeId
+[INFO] org.apache.hadoop.yarn.api.TestNodeId.testNodeId  Time elapsed: 0.22 s
+[INFO] Running org.apache.hadoop.yarn.api.TestGetApplicationsRequest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.342 s - in org.apache.hadoop.yarn.api.TestGetApplicationsRequest
+[INFO] org.apache.hadoop.yarn.api.TestGetApplicationsRequest.testGetApplicationsRequest  Time elapsed: 0.264 s
+[INFO] Running org.apache.hadoop.yarn.api.TestPBImplRecords
+[WARNING] Tests run: 146, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 1.671 s - in org.apache.hadoop.yarn.api.TestPBImplRecords
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterNodeAttributesResponsePBImpl  Time elapsed: 0.015 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetContainerReportRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterNodesRequestPBImpl  Time elapsed: 0.007 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testYarnClusterMetricsPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourceLocalizationRequest  Time elapsed: 0.017 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testSubmitApplicationRequestPBImpl  Time elapsed: 0.024 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testSchedulingRequestPBImpl  Time elapsed: 0.017 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshSuperUserGroupsConfigurationResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationAttemptsRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetContainersResponsePBImpl  Time elapsed: 0.007 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeLabelAttributesPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords skipped
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testUpdateNodeResourceRequestPBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeAttributeInfoPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testSerializedExceptionPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetNewApplicationResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetNodeToLabelsRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourcePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testPriorityPBImpl  Time elapsed: 0 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshUserToGroupsMappingsRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourceTypesInfoPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testUpdateContainerRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRegisterApplicationMasterRequestPBImpl  Time elapsed: 0.008 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testStopContainersRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords skipped
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshUserToGroupsMappingsResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetAttributesToNodesRequestPBImpl  Time elapsed: 0.01 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourceLocalizationResponse  Time elapsed: 0 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testApplicationReportPBImpl  Time elapsed: 0.013 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testSubmitApplicationResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetNodesToAttributesRequestPBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testApplicationResourceUsageReportPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetQueueUserAclsInfoResponsePBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testKillApplicationRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testCheckForDecommissioningNodesRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testMoveApplicationAcrossQueuesRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testIncreaseContainersResourceResponsePBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testFinishApplicationMasterResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testUpdateNodeResourceResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetContainerStatusesResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRenewDelegationTokenRequestPBImpl  Time elapsed: 0.012 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationDeleteRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetQueueInfoResponsePBImpl  Time elapsed: 0.014 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeAttributeKeyPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords skipped
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetNodesToAttributesResponsePBImpl  Time elapsed: 0.008 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterMetricsResponsePBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationAttemptReportResponsePBImpl  Time elapsed: 0.011 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetContainersRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterNodeLabelsResponsePBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testLocalResourcePBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterNodeLabelsRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationUpdateRequestPBImpl  Time elapsed: 0.007 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetAllResourceProfilesResponsePBImpl  Time elapsed: 0.013 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshAdminAclsRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testContainerReportPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationUpdateResponsePBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRemoveFromClusterNodeLabelsRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshAdminAclsResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetContainerReportResponsePBImpl  Time elapsed: 0.008 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshQueuesRequestPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testAddToClusterNodeLabelsRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterNodeAttributesRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testStartContainersResponsePBImpl  Time elapsed: 0.053 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testContainerPBImpl  Time elapsed: 0.047 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourceSizingPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testApplicationSubmissionContextPBImpl  Time elapsed: 0.017 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshQueuesResponsePBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReplaceLabelsOnNodeRequestPBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetQueueUserAclsInfoRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testApplicationAttemptReportPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testStartContainersRequestPBImpl  Time elapsed: 0.02 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationReportRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords skipped
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshServiceAclsRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationListRequestPBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeReportPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRenewDelegationTokenResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetNodeToLabelsResponsePBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationSubmissionRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetAllResourceTypesInfoRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testExecutionTypeRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationDeleteResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testFinishApplicationMasterRequestPBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testPreemptionMessagePBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationAttemptsResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testStartContainerRequestPBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationReportResponsePBImpl  Time elapsed: 0.008 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetLabelsToNodesResponsePBImpl  Time elapsed: 0.009 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords skipped
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRegisterApplicationMasterResponsePBImpl  Time elapsed: 0.017 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetAttributesToNodesResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourceBlacklistRequestPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testAllocateResponsePBImpl  Time elapsed: 0.033 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeToAttributesPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetDelegationTokenResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeAttributePBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetResourceProfileRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testAddToClusterNodeLabelsResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRemoveFromClusterNodeLabelsResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodeToAttributeValuePBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testQueueUserACLInfoPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetLabelsToNodesRequestPBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationSubmissionResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterNodesResponsePBImpl  Time elapsed: 0.01 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshNodesResourcesResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testPreemptionResourceRequestPBImpl  Time elapsed: 0 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNodesToAttributesMappingRequestPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testNMTokenPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testStrictPreemptionContractPBImpl  Time elapsed: 0 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testStopContainersResponsePBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetResourceProfileResponsePBImpl  Time elapsed: 0.008 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testContainerStatusPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshNodesResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testResourceRequestPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testKillApplicationResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetContainerStatusesRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetClusterMetricsRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testCancelDelegationTokenRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetEnhancedHeadroomPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testQueueConfigurationsPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testContainerLaunchContextPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReplaceLabelsOnNodeResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshServiceAclsResponsePBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testContainerRetryPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationsResponsePBImpl  Time elapsed: 0.011 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetQueueInfoRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testPreemptionContractPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testCheckForDecommissioningNodesResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetDelegationTokenRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationsRequestPBImpl  Time elapsed: 0.026 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testPreemptionContainerPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetNewApplicationRequestPBImpl  Time elapsed: 0.006 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testURLPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testMoveApplicationAcrossQueuesResponsePBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testIncreaseContainersResourceRequestPBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetApplicationAttemptReportRequestPBImpl  Time elapsed: 0.004 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testQueueInfoPBImpl  Time elapsed: 0.014 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshNodesResourcesRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testTokenPBImpl  Time elapsed: 0.001 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshSuperUserGroupsConfigurationRequestPBImpl  Time elapsed: 0.003 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testCancelDelegationTokenResponsePBImpl  Time elapsed: 0.002 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testReservationListResponsePBImpl  Time elapsed: 0.007 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testGetAllResourceTypesInfoResponsePBImpl  Time elapsed: 0.005 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testAllocateRequestPBImpl  Time elapsed: 0.013 s
+[WARNING] org.apache.hadoop.yarn.api.TestPBImplRecords.testRefreshNodesRequestPBImpl  Time elapsed: 0.005 s
+[INFO] Running org.apache.hadoop.yarn.api.TestPlacementConstraintPBConversion
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s - in org.apache.hadoop.yarn.api.TestPlacementConstraintPBConversion
+[INFO] org.apache.hadoop.yarn.api.TestPlacementConstraintPBConversion.testCompositeConstraintProtoConverter  Time elapsed: 0.116 s
+[INFO] org.apache.hadoop.yarn.api.TestPlacementConstraintPBConversion.testTargetConstraintProtoConverter  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.api.TestPlacementConstraintPBConversion.testCardinalityConstraintProtoConverter  Time elapsed: 0.001 s
+[INFO] Running org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.318 s - in org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl
+[INFO] org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl.testAppTagsLowerCaseConversionDefault[0]  Time elapsed: 0.02 s
+[INFO] org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl.testAppTagsLowerCaseConversionDisabled[0]  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl.testAppTagsLowerCaseConversionEnabled[0]  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl.testAppTagsLowerCaseConversionDefault[1]  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl.testAppTagsLowerCaseConversionDisabled[1]  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.api.protocolrecords.impl.pb.TestGetApplicationsRequestPBImpl.testAppTagsLowerCaseConversionEnabled[1]  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.api.TestTimelineEntityGroupId
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.297 s - in org.apache.hadoop.yarn.api.TestTimelineEntityGroupId
+[INFO] org.apache.hadoop.yarn.api.TestTimelineEntityGroupId.testTimelineEntityGroupId  Time elapsed: 0.21 s
+[INFO] Running org.apache.hadoop.yarn.api.TestContainerId
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 s - in org.apache.hadoop.yarn.api.TestContainerId
+[INFO] org.apache.hadoop.yarn.api.TestContainerId.testContainerId  Time elapsed: 0.23 s
+[INFO] Running org.apache.hadoop.yarn.api.TestApplicationAttemptId
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.309 s - in org.apache.hadoop.yarn.api.TestApplicationAttemptId
+[INFO] org.apache.hadoop.yarn.api.TestApplicationAttemptId.testApplicationAttemptId  Time elapsed: 0.247 s
+[INFO] Running org.apache.hadoop.yarn.api.resource.TestPlacementConstraintTransformations
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 s - in org.apache.hadoop.yarn.api.resource.TestPlacementConstraintTransformations
+[INFO] org.apache.hadoop.yarn.api.resource.TestPlacementConstraintTransformations.testTargetCardinalityConstraint  Time elapsed: 0.014 s
+[INFO] org.apache.hadoop.yarn.api.resource.TestPlacementConstraintTransformations.testCompositeConstraint  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.api.resource.TestPlacementConstraintTransformations.testTargetConstraint  Time elapsed: 0.067 s
+[INFO] org.apache.hadoop.yarn.api.resource.TestPlacementConstraintTransformations.testCardinalityConstraint  Time elapsed: 0.001 s
+[INFO] Running org.apache.hadoop.yarn.api.TestResourcePBImpl
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.598 s - in org.apache.hadoop.yarn.api.TestResourcePBImpl
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testResourcePBInitFromOldPB  Time elapsed: 0.343 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testResourceAttributes  Time elapsed: 0.044 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testParsingResourceTags  Time elapsed: 0.043 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testResourcePBWithExtraResources  Time elapsed: 0.015 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testEmptyResourcePBInit  Time elapsed: 0.013 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testResourceTags  Time elapsed: 0.022 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testGetVirtualCores  Time elapsed: 0.024 s
+[INFO] org.apache.hadoop.yarn.api.TestResourcePBImpl.testGetMemory  Time elapsed: 0.021 s
+[INFO] Running org.apache.hadoop.yarn.api.records.TestResourceUtilization
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.285 s - in org.apache.hadoop.yarn.api.records.TestResourceUtilization
+[INFO] org.apache.hadoop.yarn.api.records.TestResourceUtilization.testResourceUtilizationWithCustomResource  Time elapsed: 0.23 s
+[INFO] org.apache.hadoop.yarn.api.records.TestResourceUtilization.testResourceUtilization  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.api.records.timelineservice.TestTimelineServiceRecords
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.639 s - in org.apache.hadoop.yarn.api.records.timelineservice.TestTimelineServiceRecords
+[INFO] org.apache.hadoop.yarn.api.records.timelineservice.TestTimelineServiceRecords.testQueue  Time elapsed: 0.358 s
+[INFO] org.apache.hadoop.yarn.api.records.timelineservice.TestTimelineServiceRecords.testUser  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.api.records.timelineservice.TestTimelineServiceRecords.testFirstClassCitizenEntities  Time elapsed: 0.187 s
+[INFO] org.apache.hadoop.yarn.api.records.timelineservice.TestTimelineServiceRecords.testTimelineEntities  Time elapsed: 0.016 s
+[INFO] Running org.apache.hadoop.yarn.api.records.impl.pb.TestProtoUtils
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s - in org.apache.hadoop.yarn.api.records.impl.pb.TestProtoUtils
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestProtoUtils.testConvertFromOrToProtoFormat  Time elapsed: 0.079 s
+[INFO] Running org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationClientProtocolRecords
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.423 s - in org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationClientProtocolRecords
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationClientProtocolRecords.testCLCPBImplNullResourceType  Time elapsed: 0.338 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationClientProtocolRecords.testCLCPBImplNullResourceVisibility  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationClientProtocolRecords.testCLCPBImplNullResourceURL  Time elapsed: 0.002 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationClientProtocolRecords.testCLCPBImplNullEnv  Time elapsed: 0.009 s
+[INFO] Running org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.366 s - in org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl.testAppTagsLowerCaseConversionDefault[0]  Time elapsed: 0.017 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl.testAppTagsLowerCaseConversionDisabled[0]  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl.testAppTagsLowerCaseConversionEnabled[0]  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl.testAppTagsLowerCaseConversionDefault[1]  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl.testAppTagsLowerCaseConversionDisabled[1]  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestApplicationSubmissionContextPBImpl.testAppTagsLowerCaseConversionEnabled[1]  Time elapsed: 0.001 s
+[INFO] Running org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl.testThrowableDeserialization  Time elapsed: 0.039 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl.testSerializedException  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl.testBeforeInit  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl.testDeserialize  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.api.records.impl.pb.TestSerializedExceptionPBImpl.testDeserializeWithDefaultConstructor  Time elapsed: 0 s
+[INFO] Running org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 s - in org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords
+[INFO] org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords.testEntities  Time elapsed: 0.305 s
+[INFO] org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords.testTimelineDomain  Time elapsed: 0.004 s
+[INFO] org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords.testMapInterfaceOrTimelineRecords  Time elapsed: 0.002 s
+[INFO] org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords.testEvents  Time elapsed: 0.003 s
+[INFO] org.apache.hadoop.yarn.api.records.timeline.TestTimelineRecords.testTimelinePutErrors  Time elapsed: 0.003 s
+[INFO] Running org.apache.hadoop.yarn.api.TestApplicatonReport
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 s - in org.apache.hadoop.yarn.api.TestApplicatonReport
+[INFO] org.apache.hadoop.yarn.api.TestApplicatonReport.testApplicationReport  Time elapsed: 0.23 s
+[INFO] Running org.apache.hadoop.yarn.api.TestResourceRequest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.389 s - in org.apache.hadoop.yarn.api.TestResourceRequest
+[INFO] org.apache.hadoop.yarn.api.TestResourceRequest.testEqualsOnExecutionTypeRequest  Time elapsed: 0.308 s
+[INFO] Running org.apache.hadoop.yarn.factories.impl.pb.TestRpcServerFactoryPBImpl
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.835 s - in org.apache.hadoop.yarn.factories.impl.pb.TestRpcServerFactoryPBImpl
+[INFO] org.apache.hadoop.yarn.factories.impl.pb.TestRpcServerFactoryPBImpl.testToUseCustomClassloader  Time elapsed: 0.768 s
+[INFO] Running org.apache.hadoop.yarn.factories.impl.pb.TestRpcClientFactoryPBImpl
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.794 s - in org.apache.hadoop.yarn.factories.impl.pb.TestRpcClientFactoryPBImpl
+[INFO] org.apache.hadoop.yarn.factories.impl.pb.TestRpcClientFactoryPBImpl.testToUseCustomClassloader  Time elapsed: 0.736 s
+[INFO] Running org.apache.hadoop.yarn.security.TestYARNTokenIdentifier
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.497 s - in org.apache.hadoop.yarn.security.TestYARNTokenIdentifier
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testAMRMTokenIdentifier  Time elapsed: 0.236 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testNMTokenIdentifierOldFormat  Time elapsed: 0.009 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testAMContainerTokenIdentifier  Time elapsed: 0.118 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testRMDelegationTokenIdentifierOldFormat  Time elapsed: 0.008 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testRMDelegationTokenIdentifier  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testContainerTokenIdentifierOldFormat  Time elapsed: 0.01 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testContainerTokenIdentifier  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testNMTokenIdentifier  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testContainerTokenIdentifierProtoMissingFields  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testTimelineDelegationTokenIdentifier  Time elapsed: 0 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testAMRMTokenIdentifierOldFormat  Time elapsed: 0.001 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testClientToAMTokenIdentifier  Time elapsed: 0.005 s
+[INFO] org.apache.hadoop.yarn.security.TestYARNTokenIdentifier.testParseTimelineDelegationTokenIdentifierRenewer  Time elapsed: 0.03 s
+[INFO] Running org.apache.hadoop.yarn.security.TestDockerClientConfigHandler
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.889 s - in org.apache.hadoop.yarn.security.TestDockerClientConfigHandler
+[INFO] org.apache.hadoop.yarn.security.TestDockerClientConfigHandler.testReadCredentialsFromConfigFile  Time elapsed: 0.779 s
+[INFO] org.apache.hadoop.yarn.security.TestDockerClientConfigHandler.testGetCredentialsFromTokensByteBuffer  Time elapsed: 0.013 s
+[INFO] org.apache.hadoop.yarn.security.TestDockerClientConfigHandler.testWriteDockerCredentialsToPath  Time elapsed: 0.033 s
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 533, Failures: 0, Errors: 0, Skipped: 7
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:36 min
+[INFO] Finished at: 2022-11-01T19:22:54-05:00
+[INFO] ------------------------------------------------------------------------
