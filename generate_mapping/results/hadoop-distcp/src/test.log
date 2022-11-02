@@ -1,0 +1,590 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.bitness: 64
+[[1;34mINFO[m] os.detected.version: 5.4
+[[1;34mINFO[m] os.detected.version.major: 5
+[[1;34mINFO[m] os.detected.version.minor: 4
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 20.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.hadoop:hadoop-distcp[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Hadoop Distributed Copy 3.4.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom
+Progress (1): 2.7/14 kB
+Progress (1): 5.5/14 kB
+Progress (1): 8.2/14 kB
+Progress (1): 11/14 kB 
+Progress (1): 14/14 kB
+Progress (1): 14 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom (14 kB at 15 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.7:run[m [1m(create-testdirs)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/target/test-dir
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0:enforce[m [1m(banned-illegal-imports)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-generated-sources)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-sources)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Compiling 36 source files to /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/target/classes
+[[1;34mINFO[m] /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/main/java/org/apache/hadoop/tools/CopyListingFileStatus.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/main/java/org/apache/hadoop/tools/CopyListingFileStatus.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/main/java/org/apache/hadoop/tools/mapred/lib/DynamicRecordReader.java: /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/main/java/org/apache/hadoop/tools/mapred/lib/DynamicRecordReader.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/main/java/org/apache/hadoop/tools/mapred/lib/DynamicRecordReader.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:3.0.2:list[m [1m(deplist)[m @ [36mhadoop-distcp[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+Progress (1): 2.7/3.7 kB
+Progress (1): 3.7 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom (3.7 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom
+Progress (1): 2.7/5.9 kB
+Progress (1): 5.5/5.9 kB
+Progress (1): 5.9 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom (5.9 kB at 156 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar
+Progress (1): 4.1/81 kB
+Progress (1): 8.2/81 kB
+Progress (1): 12/81 kB 
+Progress (1): 16/81 kB
+Progress (1): 20/81 kB
+Progress (1): 25/81 kB
+Progress (1): 29/81 kB
+Progress (1): 33/81 kB
+Progress (1): 37/81 kB
+Progress (1): 41/81 kB
+Progress (1): 45/81 kB
+Progress (1): 49/81 kB
+Progress (1): 53/81 kB
+Progress (1): 57/81 kB
+Progress (1): 61/81 kB
+Progress (1): 66/81 kB
+Progress (1): 70/81 kB
+Progress (1): 74/81 kB
+Progress (1): 78/81 kB
+Progress (1): 81 kB   
+Progress (2): 81 kB | 2.7/35 kB
+Progress (2): 81 kB | 5.5/35 kB
+Progress (2): 81 kB | 8.2/35 kB
+Progress (2): 81 kB | 11/35 kB 
+Progress (2): 81 kB | 14/35 kB
+Progress (2): 81 kB | 16/35 kB
+Progress (2): 81 kB | 19/35 kB
+                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar (81 kB at 426 kB/s)
+Progress (1): 22/35 kB
+Progress (1): 25/35 kB
+Progress (1): 27/35 kB
+Progress (1): 30/35 kB
+Progress (1): 33/35 kB
+Progress (1): 35 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar (35 kB at 145 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-test-sources)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mreplacer:1.5.3:replace[m [1m(replace-generated-test-sources)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] Compiling 39 source files to /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/target/test-classes
+[[1;34mINFO[m] /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/test/java/org/apache/hadoop/tools/TestDistCpSystem.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /home/yuanfei2/hadoop/hadoop-tools/hadoop-distcp/src/test/java/org/apache/hadoop/tools/TestDistCpSystem.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M1:test[m [1m(default-test)[m @ [36mhadoop-distcp[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestCopyListingFileStatus[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 s - in org.apache.hadoop.tools.[1mTestCopyListingFileStatus[m
+[[1;34mINFO[m] testCopyListingFileStatusSerialization(org.apache.hadoop.tools.TestCopyListingFileStatus)  Time elapsed: 0.149 s
+[[1;34mINFO[m] testFileStatusEquality(org.apache.hadoop.tools.TestCopyListingFileStatus)  Time elapsed: 0.002 s
+[[1;34mINFO[m] testToString(org.apache.hadoop.tools.TestCopyListingFileStatus)  Time elapsed: 0 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestCopyListing[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m28[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.841 s - in org.apache.hadoop.tools.[1mTestCopyListing[m
+[[1;34mINFO[m] testDuplicates[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 1.151 s
+[[1;34mINFO[m] testWithRandomFileListing[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 2.809 s
+[[1;34mINFO[m] testMultipleSrcToFile[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.118 s
+[[1;34mINFO[m] testBuildListing[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.76 s
+[[1;34mINFO[m] testBuildListingForSingleFile[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.156 s
+[[1;34mINFO[m] testFailOnCloseError[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 1.014 s
+[[1;34mINFO[m] testDuplicateSourcePaths[0](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.315 s
+[[1;34mINFO[m] testDuplicates[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.175 s
+[[1;34mINFO[m] testWithRandomFileListing[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 2.254 s
+[[1;34mINFO[m] testMultipleSrcToFile[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.042 s
+[[1;34mINFO[m] testBuildListing[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.132 s
+[[1;34mINFO[m] testBuildListingForSingleFile[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.516 s
+[[1;34mINFO[m] testFailOnCloseError[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.012 s
+[[1;34mINFO[m] testDuplicateSourcePaths[1](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.586 s
+[[1;34mINFO[m] testDuplicates[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.122 s
+[[1;34mINFO[m] testWithRandomFileListing[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 1.969 s
+[[1;34mINFO[m] testMultipleSrcToFile[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.077 s
+[[1;34mINFO[m] testBuildListing[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.19 s
+[[1;34mINFO[m] testBuildListingForSingleFile[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.132 s
+[[1;34mINFO[m] testFailOnCloseError[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.011 s
+[[1;34mINFO[m] testDuplicateSourcePaths[2](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.56 s
+[[1;34mINFO[m] testDuplicates[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.161 s
+[[1;34mINFO[m] testWithRandomFileListing[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 1.166 s
+[[1;34mINFO[m] testMultipleSrcToFile[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.052 s
+[[1;34mINFO[m] testBuildListing[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.141 s
+[[1;34mINFO[m] testBuildListingForSingleFile[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.141 s
+[[1;34mINFO[m] testFailOnCloseError[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.016 s
+[[1;34mINFO[m] testDuplicateSourcePaths[3](org.apache.hadoop.tools.TestCopyListing)  Time elapsed: 0.148 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.util.[1mTestDistCpUtilsWithCombineMode[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.992 s - in org.apache.hadoop.tools.util.[1mTestDistCpUtilsWithCombineMode[m
+[[1;34mINFO[m] testChecksumsComparisonWithCombineMode(org.apache.hadoop.tools.util.TestDistCpUtilsWithCombineMode)  Time elapsed: 8.102 s
+[[1;34mINFO[m] testChecksumsComparisonWithoutCombineMode(org.apache.hadoop.tools.util.TestDistCpUtilsWithCombineMode)  Time elapsed: 1.767 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.util.[1mTestRetriableCommand[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.443 s - in org.apache.hadoop.tools.util.[1mTestRetriableCommand[m
+[[1;34mINFO[m] testRetriableCommand(org.apache.hadoop.tools.util.TestRetriableCommand)  Time elapsed: 12.393 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.util.[1mTestThrottledInputStream[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.504 s - in org.apache.hadoop.tools.util.[1mTestThrottledInputStream[m
+[[1;34mINFO[m] testRead(org.apache.hadoop.tools.util.TestThrottledInputStream)  Time elapsed: 60.371 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.util.[1mTestDistCpUtils[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m25[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.296 s - in org.apache.hadoop.tools.util.[1mTestDistCpUtils[m
+[[1;34mINFO[m] testPreserveNothingOnDirectory(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.077 s
+[[1;34mINFO[m] testSkipsNeedlessAttributes(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.011 s
+[[1;34mINFO[m] testPreservePermissionOnDirectory(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.046 s
+[[1;34mINFO[m] testPreserveTimestampOnFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.099 s
+[[1;34mINFO[m] testPackAttributes(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.052 s
+[[1;34mINFO[m] testGetRelativePathRoot(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0 s
+[[1;34mINFO[m] testPreserveGroupOnFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.044 s
+[[1;34mINFO[m] testPreserveOnFileDownwardRecursion(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.317 s
+[[1;34mINFO[m] testPreserveOnFileUpwardRecursion(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.306 s
+[[1;34mINFO[m] testPreserveTimestampOnDirectory(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.038 s
+[[1;34mINFO[m] testPreserveOnDirectoryDownwardRecursion(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.305 s
+[[1;34mINFO[m] testPreserveNothingOnFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.044 s
+[[1;34mINFO[m] testReplFactorNotPreservedOnErasureCodedFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.216 s
+[[1;34mINFO[m] testPreserveReplicationOnDirectory(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.025 s
+[[1;34mINFO[m] testPreserveUserOnDirectory(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.026 s
+[[1;34mINFO[m] testPreserveOnDirectoryUpwardRecursion(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.301 s
+[[1;34mINFO[m] testPreserveUserOnFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.049 s
+[[1;34mINFO[m] testPreserveDefaults(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.046 s
+[[1;34mINFO[m] testGetRelativePath(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0 s
+[[1;34mINFO[m] testPreservePermissionOnFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.038 s
+[[1;34mINFO[m] testPreserveAclsforDefaultACL(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.086 s
+[[1;34mINFO[m] testCompareFileLengthsAndChecksums(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.499 s
+[[1;34mINFO[m] testUnpackAttributes(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0 s
+[[1;34mINFO[m] testPreserveGroupOnDirectory(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.025 s
+[[1;34mINFO[m] testPreserveReplicationOnFile(org.apache.hadoop.tools.util.TestDistCpUtils)  Time elapsed: 0.045 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.util.[1mTestProducerConsumer[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.278 s - in org.apache.hadoop.tools.util.[1mTestProducerConsumer[m
+[[1;34mINFO[m] testExceptionProducerConsumer(org.apache.hadoop.tools.util.TestProducerConsumer)  Time elapsed: 0.067 s
+[[1;34mINFO[m] testSimpleProducerConsumer(org.apache.hadoop.tools.util.TestProducerConsumer)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testSimpleProducerConsumerShutdown(org.apache.hadoop.tools.util.TestProducerConsumer)  Time elapsed: 0.01 s
+[[1;34mINFO[m] testMultipleProducerConsumer(org.apache.hadoop.tools.util.TestProducerConsumer)  Time elapsed: 0.016 s
+[[1;34mINFO[m] testMultipleProducerConsumerShutdown(org.apache.hadoop.tools.util.TestProducerConsumer)  Time elapsed: 1.11 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestFileBasedCopyListing[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.595 s - in org.apache.hadoop.tools.[1mTestFileBasedCopyListing[m
+[[1;34mINFO[m] testMultiDirTargetMissing(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 1.458 s
+[[1;34mINFO[m] testGlobTargetMissingMultiLevel(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.754 s
+[[1;34mINFO[m] testSingleDirTargetPresent(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.203 s
+[[1;34mINFO[m] testUpdateMultiDirTargetPresent(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.217 s
+[[1;34mINFO[m] testSingleFileTargetFile(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 1.203 s
+[[1;34mINFO[m] testGlobTargetDirMultiLevel(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 1.111 s
+[[1;34mINFO[m] testMultiFileTargetPresent(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.449 s
+[[1;34mINFO[m] testGlobTargetMissingSingleLevel(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.84 s
+[[1;34mINFO[m] testSingleFileMissingTarget(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.387 s
+[[1;34mINFO[m] testSingleFileTargetDir(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.897 s
+[[1;34mINFO[m] testSingleDirTargetMissing(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.294 s
+[[1;34mINFO[m] testUpdateSingleDirTargetPresent(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.14 s
+[[1;34mINFO[m] testMultiFileTargetMissing(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.395 s
+[[1;34mINFO[m] testMultiDirTargetPresent(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 1.007 s
+[[1;34mINFO[m] testUpdateGlobTargetDirMultiLevel(org.apache.hadoop.tools.TestFileBasedCopyListing)  Time elapsed: 0.236 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpWithAcls[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.479 s - in org.apache.hadoop.tools.[1mTestDistCpWithAcls[m
+[[1;34mINFO[m] testPreserveAcls(org.apache.hadoop.tools.TestDistCpWithAcls)  Time elapsed: 1.689 s
+[[1;34mINFO[m] testAclsNotImplemented(org.apache.hadoop.tools.TestDistCpWithAcls)  Time elapsed: 0.018 s
+[[1;34mINFO[m] testAclsNotEnabled(org.apache.hadoop.tools.TestDistCpWithAcls)  Time elapsed: 1.73 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestCopyFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.131 s - in org.apache.hadoop.tools.[1mTestCopyFilter[m
+[[1;34mINFO[m] testGetCopyFilterRegexCopyFilter(org.apache.hadoop.tools.TestCopyFilter)  Time elapsed: 0.067 s
+[[1;34mINFO[m] testGetCopyFilterTrueCopyFilter(org.apache.hadoop.tools.TestCopyFilter)  Time elapsed: 0 s
+[[1;34mINFO[m] testGetCopyFilterNonExistingClass(org.apache.hadoop.tools.TestCopyFilter)  Time elapsed: 0.014 s
+[[1;34mINFO[m] testGetCopyFilterWrongClassType(org.apache.hadoop.tools.TestCopyFilter)  Time elapsed: 0 s
+[[1;34mINFO[m] testGetCopyFilterRegexpInConfigurationFilter(org.apache.hadoop.tools.TestCopyFilter)  Time elapsed: 0 s
+[[1;34mINFO[m] testGetCopyFilterEmptyString(org.apache.hadoop.tools.TestCopyFilter)  Time elapsed: 0.003 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpWithRawXAttrs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.341 s - in org.apache.hadoop.tools.[1mTestDistCpWithRawXAttrs[m
+[[1;34mINFO[m] testPreserveRawXAttrs1(org.apache.hadoop.tools.TestDistCpWithRawXAttrs)  Time elapsed: 5.8 s
+[[1;34mINFO[m] testPreserveRawXAttrs2(org.apache.hadoop.tools.TestDistCpWithRawXAttrs)  Time elapsed: 2.816 s
+[[1;34mINFO[m] testPreserveRawXAttrs3(org.apache.hadoop.tools.TestDistCpWithRawXAttrs)  Time elapsed: 2.605 s
+[[1;34mINFO[m] testPreserveRawXAttrs4(org.apache.hadoop.tools.TestDistCpWithRawXAttrs)  Time elapsed: 2.57 s
+[[1;34mINFO[m] testPreserveEC(org.apache.hadoop.tools.TestDistCpWithRawXAttrs)  Time elapsed: 1.2 s
+[[1;34mINFO[m] testUseIterator(org.apache.hadoop.tools.TestDistCpWithRawXAttrs)  Time elapsed: 57.204 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestRegexCopyFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s - in org.apache.hadoop.tools.[1mTestRegexCopyFilter[m
+[[1;34mINFO[m] testShouldExcludeAll(org.apache.hadoop.tools.TestRegexCopyFilter)  Time elapsed: 0.106 s
+[[1;34mINFO[m] testShouldCopyWithMultipleFilters(org.apache.hadoop.tools.TestRegexCopyFilter)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testShouldCopyFalse(org.apache.hadoop.tools.TestRegexCopyFilter)  Time elapsed: 0 s
+[[1;34mINFO[m] testShouldCopyTrue(org.apache.hadoop.tools.TestRegexCopyFilter)  Time elapsed: 0.001 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpSync[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m21[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.319 s - in org.apache.hadoop.tools.[1mTestDistCpSync[m
+[[1;34mINFO[m] testSyncNew(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 10.173 s
+[[1;34mINFO[m] testSync1(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.134 s
+[[1;34mINFO[m] testSync2(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.418 s
+[[1;34mINFO[m] testSync3(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.12 s
+[[1;34mINFO[m] testSync4(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 0.971 s
+[[1;34mINFO[m] testSync5(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 0.995 s
+[[1;34mINFO[m] testSync6(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.513 s
+[[1;34mINFO[m] testSync7(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.126 s
+[[1;34mINFO[m] testSync8(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.6 s
+[[1;34mINFO[m] testSync9(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 2.336 s
+[[1;34mINFO[m] testSync(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 2.767 s
+[[1;34mINFO[m] testSyncSnapshotDiffWithWebHdfs1(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 6.733 s
+[[1;34mINFO[m] testSyncSnapshotDiffWithWebHdfs2(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 4.038 s
+[[1;34mINFO[m] testSyncSnapshotDiffWithWebHdfs3(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 4.008 s
+[[1;34mINFO[m] testSyncWithFilters(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.267 s
+[[1;34mINFO[m] testSyncSnapshotTimeStampChecking(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 2.662 s
+[[1;34mINFO[m] testRenameWithFilter(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 3.224 s
+[[1;34mINFO[m] testFallback(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 0.825 s
+[[1;34mINFO[m] testSyncWithCurrent(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 1.515 s
+[[1;34mINFO[m] testSync10(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 3.439 s
+[[1;34mINFO[m] testSync11(org.apache.hadoop.tools.TestDistCpSync)  Time elapsed: 4.279 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.lib.[1mTestDynamicInputFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.265 s - in org.apache.hadoop.tools.mapred.lib.[1mTestDynamicInputFormat[m
+[[1;34mINFO[m] testGetSplitRatio(org.apache.hadoop.tools.mapred.lib.TestDynamicInputFormat)  Time elapsed: 0.066 s
+[[1;34mINFO[m] testGetSplits(org.apache.hadoop.tools.mapred.lib.TestDynamicInputFormat)  Time elapsed: 8.005 s
+[[1;34mINFO[m] testDynamicInputChunkContext(org.apache.hadoop.tools.mapred.lib.TestDynamicInputFormat)  Time elapsed: 0.013 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestCopyCommitter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.461 s - in org.apache.hadoop.tools.mapred.[1mTestCopyCommitter[m
+[[1;34mINFO[m] testAtomicCommitMissingFinal(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.191 s
+[[1;34mINFO[m] testPreserveStatusWithAtomicCommit(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.783 s
+[[1;34mINFO[m] testDeleteMissing(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 1.557 s
+[[1;34mINFO[m] testCommitWithChecksumMismatchAndSkipCrc(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.46 s
+[[1;34mINFO[m] testCommitWithChecksumMismatchWithoutSkipCrc(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.678 s
+[[1;34mINFO[m] testAtomicCommitExistingFinal(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.027 s
+[[1;34mINFO[m] testNoCommitAction(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.016 s
+[[1;34mINFO[m] testPreserveTimeWithDeleteMiss(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.948 s
+[[1;34mINFO[m] testDeleteMissingFlatInterleavedFiles(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 1.446 s
+[[1;34mINFO[m] testDeleteMissingWithOnlyFile(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.824 s
+[[1;34mINFO[m] testPreserveStatus(org.apache.hadoop.tools.mapred.TestCopyCommitter)  Time elapsed: 0.703 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestRetriableFileCopyCommand[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.892 s - in org.apache.hadoop.tools.mapred.[1mTestRetriableFileCopyCommand[m
+[[1;34mINFO[m] testGetNumBytesToRead(org.apache.hadoop.tools.mapred.TestRetriableFileCopyCommand)  Time elapsed: 0.133 s
+[[1;34mINFO[m] testFailOnCloseError(org.apache.hadoop.tools.mapred.TestRetriableFileCopyCommand)  Time elapsed: 1.611 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestCopyOutputFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.57 s - in org.apache.hadoop.tools.mapred.[1mTestCopyOutputFormat[m
+[[1;34mINFO[m] testSetWorkingDirectory(org.apache.hadoop.tools.mapred.TestCopyOutputFormat)  Time elapsed: 0.349 s
+[[1;34mINFO[m] testGetOutputCommitter(org.apache.hadoop.tools.mapred.TestCopyOutputFormat)  Time elapsed: 0.114 s
+[[1;34mINFO[m] testSetCommitDirectory(org.apache.hadoop.tools.mapred.TestCopyOutputFormat)  Time elapsed: 0.02 s
+[[1;34mINFO[m] testCheckOutputSpecs(org.apache.hadoop.tools.mapred.TestCopyOutputFormat)  Time elapsed: 0.018 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestCopyMapper[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.569 s - in org.apache.hadoop.tools.mapred.[1mTestCopyMapper[m
+[[1;34mINFO[m] testSingleFileCopy(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 1.23 s
+[[1;34mINFO[m] testIgnoreFailures(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 14.839 s
+[[1;34mINFO[m] testSkipCopyNoPerms(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.89 s
+[[1;34mINFO[m] testRun(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.968 s
+[[1;34mINFO[m] testPreserveBlockSizeAndReplication(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 1.997 s
+[[1;34mINFO[m] testFailCopyWithAccessControlException(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 7.45 s
+[[1;34mINFO[m] testCopyReadableFiles(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.288 s
+[[1;34mINFO[m] testDirToFile(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.598 s
+[[1;34mINFO[m] testFileToDir(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.145 s
+[[1;34mINFO[m] testCopyWithDifferentChecksumType(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 1.038 s
+[[1;34mINFO[m] testPreserve(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.266 s
+[[1;34mINFO[m] testCopyWithAppend(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 2.527 s
+[[1;34mINFO[m] testCopyWithDifferentBytesPerCrc(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 8.361 s
+[[1;34mINFO[m] testPreserveUserGroup(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 1.783 s
+[[1;34mINFO[m] testCopyWithDifferentBlockSizes(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 5.97 s
+[[1;34mINFO[m] testMakeDirFailure(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.08 s
+[[1;34mINFO[m] testVerboseLogging(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 0.589 s
+[[1;34mINFO[m] testCopyWhileAppend(org.apache.hadoop.tools.mapred.TestCopyMapper)  Time elapsed: 3.459 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestUniformSizeInputFormat[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.604 s - in org.apache.hadoop.tools.mapred.[1mTestUniformSizeInputFormat[m
+[[1;34mINFO[m] testGetSplits(org.apache.hadoop.tools.mapred.TestUniformSizeInputFormat)  Time elapsed: 11.432 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestCopyMapperCompositeCrc[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m18[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.252 s - in org.apache.hadoop.tools.mapred.[1mTestCopyMapperCompositeCrc[m
+[[1;34mINFO[m] testSingleFileCopy(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 1.056 s
+[[1;34mINFO[m] testIgnoreFailures(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 12.518 s
+[[1;34mINFO[m] testSkipCopyNoPerms(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.832 s
+[[1;34mINFO[m] testRun(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.601 s
+[[1;34mINFO[m] testPreserveBlockSizeAndReplication(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 1.613 s
+[[1;34mINFO[m] testFailCopyWithAccessControlException(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 6.7 s
+[[1;34mINFO[m] testCopyReadableFiles(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 1.047 s
+[[1;34mINFO[m] testDirToFile(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.563 s
+[[1;34mINFO[m] testFileToDir(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.103 s
+[[1;34mINFO[m] testCopyWithDifferentChecksumType(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.911 s
+[[1;34mINFO[m] testPreserve(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.647 s
+[[1;34mINFO[m] testCopyWithAppend(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 2.065 s
+[[1;34mINFO[m] testCopyWithDifferentBytesPerCrc(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.389 s
+[[1;34mINFO[m] testPreserveUserGroup(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 1.16 s
+[[1;34mINFO[m] testCopyWithDifferentBlockSizes(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.721 s
+[[1;34mINFO[m] testMakeDirFailure(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.495 s
+[[1;34mINFO[m] testVerboseLogging(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 0.501 s
+[[1;34mINFO[m] testCopyWhileAppend(org.apache.hadoop.tools.mapred.TestCopyMapperCompositeCrc)  Time elapsed: 2.544 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.mapred.[1mTestDeletedDirTracker[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.482 s - in org.apache.hadoop.tools.mapred.[1mTestDeletedDirTracker[m
+[[1;34mINFO[m] testDeletePerfectCache(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 2.923 s
+[[1;34mINFO[m] testNoRootDir(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testDeleteMediumCache(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 1.803 s
+[[1;34mINFO[m] testDeleteFullCache(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 1.772 s
+[[1;34mINFO[m] testDeleteDirDeep(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 0 s
+[[1;34mINFO[m] testNoRootFile(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 0 s
+[[1;34mINFO[m] testDeleteDir1(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 0 s
+[[1;34mINFO[m] testDeleteFullSmallCache(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 1.93 s
+[[1;34mINFO[m] testFileInRootDir(org.apache.hadoop.tools.mapred.TestDeletedDirTracker)  Time elapsed: 0.001 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestExternalCall[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.796 s - in org.apache.hadoop.tools.[1mTestExternalCall[m
+[[1;34mINFO[m] testCleanup(org.apache.hadoop.tools.TestExternalCall)  Time elapsed: 2.513 s
+[[1;34mINFO[m] testCleanupOfJob(org.apache.hadoop.tools.TestExternalCall)  Time elapsed: 0.891 s
+[[1;34mINFO[m] testCleanupTestViaToolRunner(org.apache.hadoop.tools.TestExternalCall)  Time elapsed: 1.319 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpSystem[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.857 s - in org.apache.hadoop.tools.[1mTestDistCpSystem[m
+[[1;34mINFO[m] testSourceRoot(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 2.882 s
+[[1;34mINFO[m] testPreserveUseNonEmptyDir(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 12.869 s
+[[1;34mINFO[m] testPreserveUserEmptyDir(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 2.398 s
+[[1;34mINFO[m] testUpdateRoot(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 18.001 s
+[[1;34mINFO[m] testPreserveUserNonEmptyDirWithUpdate(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 3.753 s
+[[1;34mINFO[m] testRecursiveChunkCopy(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 11.579 s
+[[1;34mINFO[m] testPreserveUserSingleFile(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 3.836 s
+[[1;34mINFO[m] testChunkCopyOneFile(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 7.051 s
+[[1;34mINFO[m] testDistcpLargeFile(org.apache.hadoop.tools.TestDistCpSystem)  Time elapsed: 3.041 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestRegexpInConfigurationFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s - in org.apache.hadoop.tools.[1mTestRegexpInConfigurationFilter[m
+[[1;34mINFO[m] testShouldCopy(org.apache.hadoop.tools.TestRegexpInConfigurationFilter)  Time elapsed: 0.113 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestGlobbedCopyListing[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.012 s - in org.apache.hadoop.tools.[1mTestGlobbedCopyListing[m
+[[1;34mINFO[m] testRun(org.apache.hadoop.tools.TestGlobbedCopyListing)  Time elapsed: 2.144 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestOptionsParser[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m30[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.908 s - in org.apache.hadoop.tools.[1mTestOptionsParser[m
+[[1;34mINFO[m] testSourceListing(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.121 s
+[[1;34mINFO[m] testAppendOption(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.252 s
+[[1;34mINFO[m] testInvalidArgs(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseUpdateRoot(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testExclusionsOption(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.121 s
+[[1;34mINFO[m] testParseMaps(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.012 s
+[[1;34mINFO[m] testParseAtomicCommit(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testPreserve(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseOverwrite(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testTargetPath(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testLogPath(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.006 s
+[[1;34mINFO[m] testParseNonPositiveBandwidth(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testDiffOption(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.07 s
+[[1;34mINFO[m] testMissingTarget(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testSourceListingAndSourcePath(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.002 s
+[[1;34mINFO[m] testParseSyncFolders(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseBlokcing(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testOptionsSwitchAddToConf(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.029 s
+[[1;34mINFO[m] testOptionsAppendToConfDoesntOverwriteBandwidth(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.089 s
+[[1;34mINFO[m] testParsebandwidth(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testCopyStrategy(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.007 s
+[[1;34mINFO[m] testParseZeroBandwidth(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseNumListstatusThreads(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseIgnoreFailure(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseWorkPath(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseSkipCRC(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testOptionsAppendToConf(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.047 s
+[[1;34mINFO[m] testRdiffOption(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.026 s
+[[1;34mINFO[m] testMissingSourceInfo(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0 s
+[[1;34mINFO[m] testParseDeleteMissing(org.apache.hadoop.tools.TestOptionsParser)  Time elapsed: 0.004 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.contract.[1mTestLocalContractDistCp[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.976 s - in org.apache.hadoop.tools.contract.[1mTestLocalContractDistCp[m
+[[1;34mINFO[m] testUpdateDeepDirectoryStructureNoChange(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 6.488 s
+[[1;34mINFO[m] testTrackDeepDirectoryStructureToRemote(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 3.347 s
+[[1;34mINFO[m] testDistCpWithIterator(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 3.048 s
+[[1;34mINFO[m] largeFilesToRemote(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 1.586 s
+[[1;34mINFO[m] testLargeFilesFromRemote(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 2.15 s
+[[1;34mINFO[m] testDistCpWithUpdateExistFile(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 6.39 s
+[[1;34mINFO[m] testUpdateDeepDirectoryStructureToRemote(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 2.842 s
+[[1;34mINFO[m] testDistCpWithFile(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 1.364 s
+[[1;34mINFO[m] testDeepDirectoryStructureFromRemote(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 1.514 s
+[[1;34mINFO[m] testDirectWrite(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 1.297 s
+[[1;34mINFO[m] testNonDirectWrite(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 1.334 s
+[[1;34mINFO[m] testSetJobId(org.apache.hadoop.tools.contract.TestLocalContractDistCp)  Time elapsed: 1.322 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.contract.[1mTestHDFSContractDistCp[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m12[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m2[m, Time elapsed: 26.171 s - in org.apache.hadoop.tools.contract.[1mTestHDFSContractDistCp[m
+[[1;33mWARNING[m] testUpdateDeepDirectoryStructureNoChange(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 4.467 s
+[[1;33mWARNING[m] testTrackDeepDirectoryStructureToRemote(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 2.668 s
+[[1;33mWARNING[m] testDistCpWithIterator(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 2.129 s
+[[1;33mWARNING[m] largeFilesToRemote(org.apache.hadoop.tools.contract.TestHDFSContractDistCp) skipped
+[[1;33mWARNING[m] testLargeFilesFromRemote(org.apache.hadoop.tools.contract.TestHDFSContractDistCp) skipped
+[[1;33mWARNING[m] testDistCpWithUpdateExistFile(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 1.261 s
+[[1;33mWARNING[m] testUpdateDeepDirectoryStructureToRemote(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 2.805 s
+[[1;33mWARNING[m] testDistCpWithFile(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 1.319 s
+[[1;33mWARNING[m] testDeepDirectoryStructureFromRemote(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 1.42 s
+[[1;33mWARNING[m] testDirectWrite(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 1.258 s
+[[1;33mWARNING[m] testNonDirectWrite(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 1.353 s
+[[1;33mWARNING[m] testSetJobId(org.apache.hadoop.tools.contract.TestHDFSContractDistCp)  Time elapsed: 1.261 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpSyncReverseFromSource[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.772 s - in org.apache.hadoop.tools.[1mTestDistCpSyncReverseFromSource[m
+[[1;34mINFO[m] testSync2(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 7.683 s
+[[1;34mINFO[m] testSync3(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.978 s
+[[1;34mINFO[m] testSync4(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.514 s
+[[1;34mINFO[m] testSync5(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.208 s
+[[1;34mINFO[m] testSync6(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.53 s
+[[1;34mINFO[m] testSync7(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.193 s
+[[1;34mINFO[m] testSync8(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.113 s
+[[1;34mINFO[m] testSync9(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.489 s
+[[1;34mINFO[m] testSync(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 2.51 s
+[[1;34mINFO[m] testFallback(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 1.19 s
+[[1;34mINFO[m] testSyncWithCurrent(org.apache.hadoop.tools.TestDistCpSyncReverseFromSource)  Time elapsed: 2.253 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpViewFs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.008 s - in org.apache.hadoop.tools.[1mTestDistCpViewFs[m
+[[1;34mINFO[m] testMultiDirTargetMissing(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.376 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingSingleLevel(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.646 s
+[[1;34mINFO[m] testGlobTargetMissingMultiLevel(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.339 s
+[[1;34mINFO[m] testSingleDirTargetPresent(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.268 s
+[[1;34mINFO[m] testUpdateMultiDirTargetPresent(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.273 s
+[[1;34mINFO[m] testSingleFileTargetFile(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.484 s
+[[1;34mINFO[m] testMultiFileTargetPresent(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.508 s
+[[1;34mINFO[m] testGlobTargetMissingSingleLevel(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.355 s
+[[1;34mINFO[m] testSingleFileMissingTarget(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.532 s
+[[1;34mINFO[m] testSingleFileTargetDir(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.415 s
+[[1;34mINFO[m] testSingleDirTargetMissing(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.553 s
+[[1;34mINFO[m] testUpdateMultiDirTargetMissing(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.208 s
+[[1;34mINFO[m] testUpdateSingleDirTargetPresent(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.2 s
+[[1;34mINFO[m] testMultiFileTargetMissing(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 2.428 s
+[[1;34mINFO[m] testMultiDirTargetPresent(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.213 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingMultiLevel(org.apache.hadoop.tools.TestDistCpViewFs)  Time elapsed: 1.235 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpSyncReverseFromTarget[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.212 s - in org.apache.hadoop.tools.[1mTestDistCpSyncReverseFromTarget[m
+[[1;34mINFO[m] testSync2(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 6.485 s
+[[1;34mINFO[m] testSync3(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.277 s
+[[1;34mINFO[m] testSync4(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 2.21 s
+[[1;34mINFO[m] testSync5(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.43 s
+[[1;34mINFO[m] testSync6(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.534 s
+[[1;34mINFO[m] testSync7(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.101 s
+[[1;34mINFO[m] testSync8(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.442 s
+[[1;34mINFO[m] testSync9(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.967 s
+[[1;34mINFO[m] testSync(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.755 s
+[[1;34mINFO[m] testFallback(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.367 s
+[[1;34mINFO[m] testSyncWithCurrent(org.apache.hadoop.tools.TestDistCpSyncReverseFromTarget)  Time elapsed: 1.497 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestTrueCopyFilter[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 s - in org.apache.hadoop.tools.[1mTestTrueCopyFilter[m
+[[1;34mINFO[m] testShouldCopy(org.apache.hadoop.tools.TestTrueCopyFilter)  Time elapsed: 0.074 s
+[[1;34mINFO[m] testShouldCopyWithNull(org.apache.hadoop.tools.TestTrueCopyFilter)  Time elapsed: 0.001 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpWithXAttrs[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.6 s - in org.apache.hadoop.tools.[1mTestDistCpWithXAttrs[m
+[[1;34mINFO[m] testXAttrsNotEnabled(org.apache.hadoop.tools.TestDistCpWithXAttrs)  Time elapsed: 1.894 s
+[[1;34mINFO[m] testXAttrsNotImplemented(org.apache.hadoop.tools.TestDistCpWithXAttrs)  Time elapsed: 0.024 s
+[[1;34mINFO[m] testPreserveXAttrs(org.apache.hadoop.tools.TestDistCpWithXAttrs)  Time elapsed: 1.591 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestDistCpOptions[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m28[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.259 s - in org.apache.hadoop.tools.[1mTestDistCpOptions[m
+[[1;34mINFO[m] testSourceListing(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.062 s
+[[1;34mINFO[m] testAppendOption(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.006 s
+[[1;34mINFO[m] testSetAtomicCommit(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testAppendToConf(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.104 s
+[[1;34mINFO[m] testSetNonPositiveBandwidth(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testSetCopyBufferSize(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetSyncFolders(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetNumListtatusThreads(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testExclusionsOption(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testToString(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testUpdateRoot(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testPreserve(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testTargetPath(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testLogPath(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testSetZeroBandwidth(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetSkipCRC(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testSetIgnoreFailure(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testDiffOption(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.007 s
+[[1;34mINFO[m] testMissingTarget(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetBandwidth(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testSetBlokcing(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testCopyStrategy(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetOptionsForSplitLargeFile(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testVerboseLog(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetDeleteMissing(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] testSetWorkPath(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetMaps(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0 s
+[[1;34mINFO[m] testSetOverwrite(org.apache.hadoop.tools.TestDistCpOptions)  Time elapsed: 0.001 s
+[[1;34mINFO[m] Running org.apache.hadoop.tools.[1mTestIntegration[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m57[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 97.332 s - in org.apache.hadoop.tools.[1mTestIntegration[m
+[[1;34mINFO[m] testMultiDirTargetMissing[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.802 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingSingleLevel[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.82 s
+[[1;34mINFO[m] testGlobTargetMissingMultiLevel[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.726 s
+[[1;34mINFO[m] testSingleDirTargetPresent[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.326 s
+[[1;34mINFO[m] testUpdateMultiDirTargetPresent[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.576 s
+[[1;34mINFO[m] testSingleFileTargetFile[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.618 s
+[[1;34mINFO[m] testMultiFileTargetPresent[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.924 s
+[[1;34mINFO[m] testGlobTargetMissingSingleLevel[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.304 s
+[[1;34mINFO[m] testDeleteMissingInDestination[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.259 s
+[[1;34mINFO[m] testSingleFileMissingTarget[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.532 s
+[[1;34mINFO[m] testSingleFileTargetDir[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.58 s
+[[1;34mINFO[m] testSingleDirTargetMissing[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.577 s
+[[1;34mINFO[m] testUpdateMultiDirTargetMissing[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.475 s
+[[1;34mINFO[m] testOverwrite[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.383 s
+[[1;34mINFO[m] testUpdateSingleDirTargetPresent[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.176 s
+[[1;34mINFO[m] testCleanup[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 0.051 s
+[[1;34mINFO[m] testMultiFileTargetMissing[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.543 s
+[[1;34mINFO[m] testMultiDirTargetPresent[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.183 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingMultiLevel[0](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.258 s
+[[1;34mINFO[m] testMultiDirTargetMissing[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.228 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingSingleLevel[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.277 s
+[[1;34mINFO[m] testGlobTargetMissingMultiLevel[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.35 s
+[[1;34mINFO[m] testSingleDirTargetPresent[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.257 s
+[[1;34mINFO[m] testUpdateMultiDirTargetPresent[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.199 s
+[[1;34mINFO[m] testSingleFileTargetFile[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.391 s
+[[1;34mINFO[m] testMultiFileTargetPresent[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.638 s
+[[1;34mINFO[m] testGlobTargetMissingSingleLevel[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.431 s
+[[1;34mINFO[m] testDeleteMissingInDestination[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.368 s
+[[1;34mINFO[m] testSingleFileMissingTarget[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.692 s
+[[1;34mINFO[m] testSingleFileTargetDir[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.552 s
+[[1;34mINFO[m] testSingleDirTargetMissing[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.479 s
+[[1;34mINFO[m] testUpdateMultiDirTargetMissing[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.195 s
+[[1;34mINFO[m] testOverwrite[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.32 s
+[[1;34mINFO[m] testUpdateSingleDirTargetPresent[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.235 s
+[[1;34mINFO[m] testCleanup[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 0.039 s
+[[1;34mINFO[m] testMultiFileTargetMissing[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.531 s
+[[1;34mINFO[m] testMultiDirTargetPresent[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.224 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingMultiLevel[1](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.314 s
+[[1;34mINFO[m] testMultiDirTargetMissing[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.26 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingSingleLevel[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.256 s
+[[1;34mINFO[m] testGlobTargetMissingMultiLevel[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.647 s
+[[1;34mINFO[m] testSingleDirTargetPresent[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.181 s
+[[1;34mINFO[m] testUpdateMultiDirTargetPresent[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.232 s
+[[1;34mINFO[m] testSingleFileTargetFile[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.506 s
+[[1;34mINFO[m] testMultiFileTargetPresent[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.488 s
+[[1;34mINFO[m] testGlobTargetMissingSingleLevel[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.277 s
+[[1;34mINFO[m] testDeleteMissingInDestination[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.25 s
+[[1;34mINFO[m] testSingleFileMissingTarget[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.364 s
+[[1;34mINFO[m] testSingleFileTargetDir[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.497 s
+[[1;34mINFO[m] testSingleDirTargetMissing[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.44 s
+[[1;34mINFO[m] testUpdateMultiDirTargetMissing[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.646 s
+[[1;34mINFO[m] testOverwrite[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.31 s
+[[1;34mINFO[m] testUpdateSingleDirTargetPresent[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.257 s
+[[1;34mINFO[m] testCleanup[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 0.038 s
+[[1;34mINFO[m] testMultiFileTargetMissing[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 2.522 s
+[[1;34mINFO[m] testMultiDirTargetPresent[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.303 s
+[[1;34mINFO[m] testUpdateGlobTargetMissingMultiLevel[2](org.apache.hadoop.tools.TestIntegration)  Time elapsed: 1.22 s
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 382, Failures: 0, Errors: 0, Skipped: 2[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13:36 min
+[[1;34mINFO[m] Finished at: 2022-11-01T19:06:52-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

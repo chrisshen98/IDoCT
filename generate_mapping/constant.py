@@ -20,6 +20,7 @@ MODULE_PATH = {
 SRC_SUBDIR = {
     "hadoop-common": "hadoop-common-project/hadoop-common",
     "hadoop-hdfs": "hadoop-hdfs-project/hadoop-hdfs",
+    "hadoop-hdfs-rbf": "hadoop-hdfs-project/hadoop-hdfs-rbf",
     "hbase-server": "hbase-server",
     "zookeeper-server": "zookeeper-server",
     "alluxio-core": "core",
@@ -31,6 +32,7 @@ SRC_SUBDIR = {
 MVN_TEST_PATH = {
     "hadoop-common": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-common"]),
     "hadoop-hdfs": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs"]),
+    "hadoop-hdfs-rbf": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs-rbf"]),
     "hbase-server": os.path.join(CTEST_HBASE_DIR, SRC_SUBDIR["hbase-server"]),
     "zookeeper-server": os.path.join(CTEST_ZOOKEEPER_DIR, SRC_SUBDIR["zookeeper-server"]),
     "alluxio-core": os.path.join(CTEST_ALLUXIO_DIR, SRC_SUBDIR["alluxio-core"]),
@@ -42,6 +44,7 @@ MVN_TEST_PATH = {
 LOCAL_CONF_PATH = {
     "hadoop-common": "results/hadoop-common/conf_params.txt",
     "hadoop-hdfs": "results/hadoop-hdfs/conf_params.txt",
+    "hadoop-hdfs-rbf": "results/hadoop-hdfs-rbf/conf_params.txt",
     "hbase-server": "results/hbase-server/conf_params.txt",
     "zookeeper-server": "results/zookeeper-server/conf_params.txt",
     "alluxio-core": "results/alluxio-core/conf_params.txt",
@@ -58,6 +61,9 @@ CTEST_SUREFIRE_PATH = {
     ],
     "hadoop-hdfs": [
         os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs"], SUREFIRE_SUBDIR)
+    ],
+    "hadoop-hdfs-rbf": [
+        os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs-rbf"], SUREFIRE_SUBDIR)
     ],
     "hbase-server": [
         os.path.join(CTEST_HBASE_DIR, "hbase-server", SUREFIRE_SUBDIR)
@@ -94,6 +100,9 @@ LOCAL_SUREFIRE_PATH = {
     ],
     "hadoop-hdfs": [
         os.path.join("surefire-reports/hdfs/hadoop-hdfs", LOCAL_SUREFIRE_SUFFIX)
+    ],
+    "hadoop-hdfs-rbf": [
+        os.path.join("surefire-reports/hdfs/hadoop-hdfs-rbf", LOCAL_SUREFIRE_SUFFIX)
     ],
     "hbase-server": [
         os.path.join("surefire-reports/hbase/hbase-server", LOCAL_SUREFIRE_SUFFIX)
