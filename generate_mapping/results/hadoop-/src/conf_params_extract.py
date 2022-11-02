@@ -10,21 +10,27 @@ files = []
 for c in testClasses:
     files.append(c+"-output.txt")
 params = []
+err = 0
 for file in files:
     try:
         f = open(file)
         f = f.readlines()
         for line in f:
-            if "[CTEST]" in line:
+            if line.startswith("[CTEST]"):
                 param = line.split(" ")[1]
                 if param not in params:
                     params.append(param)
     except IOError:
-        print("")
+        err+=1
 toWrite = ""
 for item in params:
     toWrite += item+"\n"
-    print("item")
+
+lines = toWrite.split('\n')
+lines = [line for line in lines if line.strip()]
+toWrite = ""
+for line in lines:
+    toWrite += line+"\n"
 # print(toWrite)
 f = open("conf_params.txt", "w")
 f.write(toWrite)

@@ -21,6 +21,8 @@ SRC_SUBDIR = {
     "hadoop-common": "hadoop-common-project/hadoop-common",
     "hadoop-hdfs": "hadoop-hdfs-project/hadoop-hdfs",
     "hadoop-hdfs-rbf": "hadoop-hdfs-project/hadoop-hdfs-rbf",
+    "hadoop-yarn-common": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common",
+    "hadoop-distcp": "hadoop-tools/hadoop-distcp",
     "hbase-server": "hbase-server",
     "zookeeper-server": "zookeeper-server",
     "alluxio-core": "core",
@@ -33,6 +35,8 @@ MVN_TEST_PATH = {
     "hadoop-common": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-common"]),
     "hadoop-hdfs": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs"]),
     "hadoop-hdfs-rbf": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs-rbf"]),
+    "hadoop-yarn-common": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-yarn-common"]),
+    "hadoop-distcp": os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-distcp"]),
     "hbase-server": os.path.join(CTEST_HBASE_DIR, SRC_SUBDIR["hbase-server"]),
     "zookeeper-server": os.path.join(CTEST_ZOOKEEPER_DIR, SRC_SUBDIR["zookeeper-server"]),
     "alluxio-core": os.path.join(CTEST_ALLUXIO_DIR, SRC_SUBDIR["alluxio-core"]),
@@ -45,6 +49,8 @@ LOCAL_CONF_PATH = {
     "hadoop-common": "results/hadoop-common/conf_params.txt",
     "hadoop-hdfs": "results/hadoop-hdfs/conf_params.txt",
     "hadoop-hdfs-rbf": "results/hadoop-hdfs-rbf/conf_params.txt",
+    "hadoop-yarn-common": "results/hadoop-yarn-common/conf_params.txt",
+    "hadoop-distcp": "results/hadoop-distcp/conf_params.txt",
     "hbase-server": "results/hbase-server/conf_params.txt",
     "zookeeper-server": "results/zookeeper-server/conf_params.txt",
     "alluxio-core": "results/alluxio-core/conf_params.txt",
@@ -64,6 +70,12 @@ CTEST_SUREFIRE_PATH = {
     ],
     "hadoop-hdfs-rbf": [
         os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-hdfs-rbf"], SUREFIRE_SUBDIR)
+    ],
+    "hadoop-yarn-common": [
+        os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-yarn-common"], SUREFIRE_SUBDIR)
+    ],
+    "hadoop-distcp": [
+        os.path.join(CTEST_HADOOP_DIR, SRC_SUBDIR["hadoop-distcp"], SUREFIRE_SUBDIR)
     ],
     "hbase-server": [
         os.path.join(CTEST_HBASE_DIR, "hbase-server", SUREFIRE_SUBDIR)
@@ -103,6 +115,12 @@ LOCAL_SUREFIRE_PATH = {
     ],
     "hadoop-hdfs-rbf": [
         os.path.join("surefire-reports/hdfs/hadoop-hdfs-rbf", LOCAL_SUREFIRE_SUFFIX)
+    ],
+    "hadoop-yarn-common": [
+        os.path.join("surefire-reports/hadoop-yarn-common", LOCAL_SUREFIRE_SUFFIX)
+    ],
+    "hadoop-distcp": [
+        os.path.join("surefire-reports/hadoop-distcp", LOCAL_SUREFIRE_SUFFIX)
     ],
     "hbase-server": [
         os.path.join("surefire-reports/hbase/hbase-server", LOCAL_SUREFIRE_SUFFIX)
