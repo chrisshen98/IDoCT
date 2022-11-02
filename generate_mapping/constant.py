@@ -3,7 +3,7 @@ import os
 CUR_DIR = os.path.dirname(os.path.realpath(__file__))
 APP_DIR = os.path.join(CUR_DIR, "../../")
 
-CTEST_HADOOP_DIR = os.path.join(APP_DIR, "hadoop")
+CTEST_HADOOP_DIR = os.path.join(APP_DIR, "hadoop-F")
 CTEST_HBASE_DIR = os.path.join(APP_DIR, "hbase")
 CTEST_ZOOKEEPER_DIR = os.path.join(APP_DIR, "zookeeper")
 CTEST_ALLUXIO_DIR = os.path.join(APP_DIR, "alluxio")
@@ -114,7 +114,7 @@ LOCAL_SUREFIRE_PATH = {
         os.path.join("surefire-reports/hdfs/hadoop-hdfs", LOCAL_SUREFIRE_SUFFIX)
     ],
     "hadoop-hdfs-rbf": [
-        os.path.join("surefire-reports/hdfs/hadoop-hdfs-rbf", LOCAL_SUREFIRE_SUFFIX)
+        os.path.join("surefire-reports/hadoop-hdfs-rbf", LOCAL_SUREFIRE_SUFFIX)
     ],
     "hadoop-yarn-common": [
         os.path.join("surefire-reports/hadoop-yarn-common", LOCAL_SUREFIRE_SUFFIX)
