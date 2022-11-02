@@ -6,8 +6,8 @@ for file in files:
     with open(file) as f:
         f = f.readlines()
     for line in f:
-        if "Running" in line:
-            temp = line.split("Running ")[1]
+        if " Running " in line:
+            temp = line.split(" Running ")[1]
             path = temp.split("")[0]
             testClass = temp.split("")[1].split("1m")[1]
             tempClass = path+testClass
