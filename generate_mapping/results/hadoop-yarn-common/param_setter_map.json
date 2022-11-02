@@ -1,0 +1,869 @@
+{
+  "org.apache.hadoop.yarn.TestContainerLaunchRPC#testHadoopProtoRPCTimeout": [
+    "rpc.engine.org.apache.hadoop.ipc.ProtocolMetaInfoPB",
+    "yarn.rpc.nm-command-timeout",
+    "yarn.ipc.rpc.class",
+    "rpc.engine.org.apache.hadoop.yarn.api.ContainerManagementProtocolPB"
+  ],
+  "org.apache.hadoop.yarn.client.TestClientRMProxy#testProxyUserCorrectUGI": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.hostname.rm1",
+    "yarn.resourcemanager.address.rm2",
+    "yarn.resourcemanager.connect.retry-interval.ms",
+    "yarn.resourcemanager.hostname.rm2",
+    "yarn.resourcemanager.address.rm1",
+    "ipc.client.connect.max.retries.on.timeouts",
+    "yarn.resourcemanager.ha.enabled",
+    "rpc.engine.org.apache.hadoop.yarn.api.ApplicationClientProtocolPB",
+    "ipc.client.connect.max.retries",
+    "yarn.client.failover-max-attempts",
+    "yarn.ipc.rpc.class",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.connect.max-wait.ms"
+  ],
+  "org.apache.hadoop.yarn.client.TestClientRMProxy#testGetRMDelegationTokenService": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.hostname.rm1",
+    "yarn.resourcemanager.address.rm2",
+    "yarn.resourcemanager.hostname.rm2",
+    "yarn.resourcemanager.address.rm1",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.resourcemanager.ha.rm-ids"
+  ],
+  "org.apache.hadoop.yarn.client.TestClientRMProxy#testGetAMRMTokenService": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.hostname.rm1",
+    "yarn.resourcemanager.hostname.rm2",
+    "yarn.resourcemanager.scheduler.address.rm2",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.scheduler.address.rm1"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl#testGetContainersForAppAttempt": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl#testGetApplication": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl#testGetContainer": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl#getApplicationAttemptEntities": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl#getApplicationAttemptEntity": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineReaderClientImpl#testGetContainers": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5#testPostEntities": [
+    "yarn.timeline-service.entity-group-fs-store.summary-entity-types",
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.entity-group-fs-store.active-dir",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5#testPostEntitiesToKeepUnderUserDir": [
+    "yarn.timeline-service.entity-group-fs-store.active-dir",
+    "yarn.timeline-service.enabled",
+    "yarn.timeline-service.entity-group-fs-store.with-user-dir",
+    "yarn.timeline-service.entity-group-fs-store.summary-entity-types",
+    "yarn.timeline-service.version"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5#testPutDomain": [
+    "yarn.timeline-service.entity-group-fs-store.summary-entity-types",
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.entity-group-fs-store.active-dir",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientForATS1_5#testPutDomainToKeepUnderUserDir": [
+    "yarn.timeline-service.entity-group-fs-store.active-dir",
+    "yarn.timeline-service.enabled",
+    "yarn.timeline-service.entity-group-fs-store.with-user-dir",
+    "yarn.timeline-service.entity-group-fs-store.summary-entity-types",
+    "yarn.timeline-service.version"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testDelegationTokenOperationsRetry": [
+    "yarn.timeline-service.client.retry-interval-ms",
+    "yarn.timeline-service.http-authentication.type",
+    "yarn.timeline-service.enabled",
+    "yarn.timeline-service.version",
+    "hadoop.security.authentication",
+    "yarn.timeline-service.client.max-retries"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPostEntities": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testTimelineClientCleanup": [
+    "ssl.server.keystore.keypassword",
+    "yarn.timeline-service.enabled",
+    "hadoop.ssl.client.conf",
+    "ssl.server.keystore.password",
+    "yarn.http.policy",
+    "hadoop.ssl.hostname.verifier",
+    "ssl.client.truststore.location",
+    "ssl.server.truststore.reload.interval",
+    "ssl.server.truststore.password",
+    "hadoop.ssl.require.client.cert",
+    "ssl.server.truststore.location",
+    "ssl.client.truststore.reload.interval",
+    "ssl.client.keystore.password",
+    "ssl.client.keystore.location",
+    "ssl.client.truststore.password",
+    "ssl.server.keystore.location",
+    "ssl.client.keystore.keypassword",
+    "hadoop.ssl.server.conf",
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.client.max-retries"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPostIncompleteEntities": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPutDomainConnectionRefused": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPostEntitiesWithError": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPutDomain": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testDelegationTokenDisabledOnSimpleAuth": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled",
+    "yarn.timeline-service.http-authentication.type"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testCheckRetryCount": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled",
+    "yarn.timeline-service.client.retry-interval-ms",
+    "yarn.timeline-service.client.max-retries"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPostEntitiesNoResponse": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPostEntitiesConnectionRefused": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testPutDomainNoResponse": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testTimelineConnectorDestroy": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testSyncCall": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testPostEntities": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testSetTimelineToken": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testExceptionCalls": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testExceptionMultipleRetry": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled",
+    "yarn.timeline-service.client.max-retries"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testASyncCallMerge": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testConfigurableNumberOfMerges": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.client.api.impl.TestTimelineClientV2Impl#testAfterStop": [
+    "yarn.timeline-service.version",
+    "yarn.timeline-service.timeline-client.number-of-async-entities-to-merge",
+    "yarn.timeline-service.enabled"
+  ],
+  "org.apache.hadoop.yarn.util.TestApps#testSetEnvFromInputPropertyDefault": [
+    "mapreduce.child.env",
+    "mapreduce.map.env.env4",
+    "mapreduce.map.env",
+    "mapreduce.child.env.env4",
+    "mapreduce.child.env.env2",
+    "mapreduce.map.env.env2"
+  ],
+  "org.apache.hadoop.yarn.util.TestApps#testSetEnvFromInputPropertyCommas": [
+    "mapreduce.reduce.env",
+    "mapreduce.child.env",
+    "mapreduce.reduce.env.env4",
+    "mapreduce.reduce.env.env2"
+  ],
+  "org.apache.hadoop.yarn.util.TestApps#testSetEnvFromInputString": [
+    "mapreduce.reduce.env",
+    "mapreduce.child.env",
+    "mapreduce.reduce.env.env4",
+    "mapreduce.reduce.env.env2"
+  ],
+  "org.apache.hadoop.yarn.util.TestApps#testSetEnvFromInputProperty": [
+    "mapreduce.child.env",
+    "mapreduce.map.env.env4",
+    "mapreduce.map.env",
+    "mapreduce.child.env.env4",
+    "mapreduce.child.env.env2",
+    "mapreduce.map.env.env2"
+  ],
+  "org.apache.hadoop.yarn.util.TestApps#testSetEnvFromInputPropertyNull": [
+    "mapreduce.child.env",
+    "mapreduce.map.env.env4",
+    "mapreduce.map.env",
+    "mapreduce.child.env.env4",
+    "mapreduce.child.env.env2",
+    "mapreduce.map.env.env2"
+  ],
+  "org.apache.hadoop.yarn.util.TestApps#testSetEnvFromInputPropertyOverrideDefault": [
+    "mapreduce.child.env",
+    "mapreduce.reduce.env.env2",
+    "mapreduce.child.env.env4",
+    "mapreduce.child.env.env2",
+    "mapreduce.reduce.env.env4"
+  ],
+  "org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree#testMemForOlderProcesses": [
+    "yarn.nodemanager.container-monitor.procfs-tree.smaps-based-rss.enabled"
+  ],
+  "org.apache.hadoop.yarn.util.TestProcfsBasedProcessTree#testCpuAndMemoryForProcessTree": [
+    "yarn.nodemanager.container-monitor.procfs-tree.smaps-based-rss.enabled"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceCalculator#testRatioWithExtraResource[DefaultResourceCalculator]": [
+    "yarn.resource-types"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceCalculator#testCompare[DefaultResourceCalculator]": [
+    "yarn.resource-types"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceCalculator#testRatioWithExtraResource[DominantResourceCalculator]": [
+    "yarn.resource-types"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceCalculator#testCompare[DominantResourceCalculator]": [
+    "yarn.resource-types"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceUtils#testInitializeResourcesMap": [
+    "yarn.resource-types.resource2.units",
+    "yarn.resource-types.resource1.units",
+    "yarn.resource-types",
+    "yarn.resource-types..units"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceUtils#testResourceNameFormatValidation": [
+    "yarn.resource-types.resource2.units",
+    "yarn.resource-types.resource1.units",
+    "yarn.resource-types",
+    "yarn.resource-types..units"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceUtils#testGetRequestedResourcesFromConfig": [
+    "mapreduce.mapper.proper.rt.yarn.io/",
+    "incorrect.prefix.yarn.io/gpu",
+    "mapreduce.mapper.proper.rt.yarn.io/gpu",
+    "mapreduce.mapper.proper.rt.",
+    "mapreduce.mapper.proper.rt.regular_rt",
+    "mapreduce.mapper.proper.rt.regular_rt/with_slash",
+    "mapreduce.mapper.proper.rt.too.many_parts",
+    "mapreduce.mapper.proper.rt.yarn.notio/gpu",
+    "mapreduce.mapper.proper.rt.yarn.io/anything_without_a_dot",
+    "mapreduce.mapper.proper.rt.yarn.io/fpga"
+  ],
+  "org.apache.hadoop.yarn.util.resource.TestResourceUtils#testInitializeResourcesMapErrors": [
+    "yarn.resource-types.vcores.units",
+    "yarn.resource-types.memory-mb.units",
+    "yarn.resource-types.memory.units",
+    "yarn.resource-types"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDirDownload": [
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.option.openfile.read.policy"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testUniqueDestinationPath": [
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.option.openfile.read.policy"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testResourceTimestampChangeDuringDownload": [
+    "org.apache.hadoop.yarn.util.TestFSDownload"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownloadArchiveZipWithTurkishLocale": [
+    "fs.option.openfile.read.policy",
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownloadPatternJar": [
+    "fs.option.openfile.read.policy",
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownloadArchive": [
+    "fs.option.openfile.read.policy",
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownloadArchiveTgz": [
+    "fs.option.openfile.read.policy",
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownloadArchiveZip": [
+    "fs.option.openfile.read.policy",
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownloadBadPublic": [
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestFSDownload#testDownload": [
+    "fs.option.openfile.read.policy",
+    "org.apache.hadoop.yarn.util.TestFSDownload",
+    "fs.permissions.umask-mode"
+  ],
+  "org.apache.hadoop.yarn.util.TestRackResolverScriptBasedMapping#testScriptName": [
+    "net.topology.node.switch.mapping.impl",
+    "net.topology.script.file.name"
+  ],
+  "org.apache.hadoop.yarn.util.TestRackResolver#testCaching": [
+    "net.topology.node.switch.mapping.impl"
+  ],
+  "org.apache.hadoop.yarn.util.TestRackResolver#testMultipleHosts": [
+    "net.topology.node.switch.mapping.impl"
+  ],
+  "org.apache.hadoop.yarn.util.timeline.TestShortenedFlowName#testShortenedFlowName": [
+    "yarn.timeline-service.flowname.max-size"
+  ],
+  "org.apache.hadoop.yarn.util.timeline.TestShortenedFlowName#testRemovingUUID": [
+    "yarn.timeline-service.flowname.max-size"
+  ],
+  "org.apache.hadoop.yarn.server.security.TestApplicationACLsManager#testCheckAccessWithPartialACLS": [
+    "yarn.admin.acl",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.server.security.TestApplicationACLsManager#testCheckAccess": [
+    "yarn.admin.acl",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.server.security.TestApplicationACLsManager#testCheckAccessWithNullACLS": [
+    "yarn.admin.acl",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.event.TestAsyncDispatcher#testPrintDispatcherEventDetails": [
+    "yarn.dispatcher.print-events-info.threshold"
+  ],
+  "org.apache.hadoop.yarn.event.TestAsyncDispatcher#testPrintDispatcherEventDetailsAvoidDeadLoop": [
+    "yarn.dispatcher.print-events-info.threshold"
+  ],
+  "org.apache.hadoop.yarn.event.TestAsyncDispatcher#testDispatchStopOnTimeout": [
+    "yarn.dispatcher.drain-events.timeout"
+  ],
+  "org.apache.hadoop.yarn.event.TestAsyncDispatcher#testDrainDispatcherDrainEventsOnStop": [
+    "yarn.dispatcher.drain-events.timeout"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebAppUtils#testGetPassword": [
+    "hadoop.security.credential.provider.path"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebAppUtils#testGetHtmlEscapedURIWithQueryString": [
+    "hadoop.security.credential.provider.path"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebAppUtils#testAppendQueryParams": [
+    "hadoop.security.credential.provider.path"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebAppUtils#testLoadSslConfiguration": [
+    "hadoop.security.credential.provider.path"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebAppUtils#TestRMWebAppURLRemoteAndLocal": [
+    "yarn.resourcemanager.webapp.address.rm2",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.resourcemanager.webapp.address.rm1",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.webapp.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebServiceClient#testGetWebServiceClient": [
+    "hadoop.ssl.require.client.cert",
+    "yarn.http.policy"
+  ],
+  "org.apache.hadoop.yarn.webapp.util.TestWebServiceClient#testCreateClient": [
+    "hadoop.ssl.require.client.cert",
+    "ssl.server.truststore.location",
+    "ssl.client.truststore.reload.interval",
+    "ssl.server.keystore.keypassword",
+    "bind.address",
+    "ssl.client.keystore.keypassword",
+    "hadoop.ssl.hostname.verifier",
+    "ssl.client.keystore.password",
+    "ssl.client.truststore.location",
+    "hadoop.ssl.server.conf",
+    "ssl.client.keystore.location",
+    "ssl.server.keystore.password",
+    "ssl.client.truststore.password",
+    "ssl.server.truststore.password",
+    "ssl.server.truststore.reload.interval",
+    "hadoop.ssl.client.conf",
+    "ssl.server.keystore.location",
+    "yarn.http.policy"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testYARNWebAppContext": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testDefaultRoutes": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testCreateWithBindAddressNonZeroPort": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testCreateWithPort": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testEncodedUrl": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testCreateWithNonZeroPort": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testPortRanges": [
+    "abc",
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testServePathsNoName": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testCreate": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testCustomRoutes": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testServePaths": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.webapp.TestWebApp#testRobotsText": [
+    "bind.address"
+  ],
+  "org.apache.hadoop.yarn.TestRPCFactories#test": [
+    "rpc.engine.org.apache.hadoop.ipc.ProtocolMetaInfoPB",
+    "rpc.engine.org.apache.hadoop.yarn.api.ApplicationMasterProtocolPB"
+  ],
+  "org.apache.hadoop.yarn.TestContainerResourceIncreaseRPC#testHadoopProtoRPCTimeout": [
+    "rpc.engine.org.apache.hadoop.ipc.ProtocolMetaInfoPB",
+    "yarn.rpc.nm-command-timeout",
+    "yarn.ipc.rpc.class",
+    "rpc.engine.org.apache.hadoop.yarn.api.ContainerManagementProtocolPB"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testAddInvalidlabel": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testAddlabelWithExclusivity": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testReplaceLabelsOnHostsShouldUpdateNodesBelongTo": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testLabelsToNodes": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testGetNodeLabelsInfo": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testTrimLabelsWhenAddRemoveNodeLabels": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testAddRemovelabel": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testAddlabelWithCase": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testTrimLabelsWhenModifyLabelsOnNodes": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testLabelsToNodesForSelectedLabels": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testRemoveNodeLabelsInfo": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testRemovelabelWithNodes": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testNoMoreThanOneLabelExistedInOneHost": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testLabelsInfoToNodes": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testAddReplaceRemoveLabelsOnNodes": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testNodeLabelsDisabled": [
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestCommonNodeLabelsManager#testReplaceLabelsOnNodeInDistributedMode": [
+    "yarn.node-labels.configuration-type",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testRecoverWithDistributedNodeLabels[0]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.configuration-type",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testRootMkdirOnInitStore[0]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testSerilizationAfterRecovery[0]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testRecoverWithMirror[0]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testEditlogRecover[0]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testRecoverWithDistributedNodeLabels[1]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.configuration-type",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testRootMkdirOnInitStore[1]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testSerilizationAfterRecovery[1]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testRecoverWithMirror[1]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.nodelabels.TestFileSystemNodeLabelsStore#testEditlogRecover[1]": [
+    "yarn.node-labels.fs-store.impl.class",
+    "yarn.node-labels.fs-store.root-dir",
+    "yarn.node-labels.enabled"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock#testAccessDenied": [
+    "fs.option.openfile.length",
+    "yarn.admin.acl",
+    "fs.option.openfile.read.policy",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock#testBlockContainsPortNumForUnavailableAppLog": [
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.admin.acl",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock#testBadLogs": [
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.admin.acl",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock#testAggregatedLogsBlockHar": [
+    "fs.option.openfile.length",
+    "yarn.admin.acl",
+    "fs.option.openfile.read.policy",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock#testAggregatedLogsBlock": [
+    "fs.option.openfile.length",
+    "yarn.admin.acl",
+    "fs.option.openfile.read.policy",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogsBlock#testNoLogs": [
+    "fs.option.openfile.length",
+    "yarn.admin.acl",
+    "fs.option.openfile.read.policy",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.acl.enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService#testRefreshLogRetentionSettings": [
+    "yarn.log-aggregation.retain-seconds",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.retain-check-interval-seconds",
+    "yarn.log-aggregation.file-formats",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "fs.mockfs.impl"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService#testCheckInterval": [
+    "yarn.log-aggregation.retain-seconds",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.retain-check-interval-seconds",
+    "yarn.log-aggregation.file-formats",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "fs.mockfs.impl"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService#testDeletionTwoControllers": [
+    "yarn.log-aggregation.file-controller.IFile.class",
+    "yarn.log-aggregation.retain-seconds",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.IFile.remote-app-log-dir",
+    "yarn.log-aggregation.IFile.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.retain-check-interval-seconds",
+    "yarn.log-aggregation.TFile.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-formats",
+    "yarn.log-aggregation.TFile.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "fs.mockfs.impl"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService#testDeletion": [
+    "yarn.log-aggregation.retain-seconds",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.retain-check-interval-seconds",
+    "yarn.log-aggregation.file-formats",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "fs.mockfs.impl"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.TestAggregatedLogDeletionService#testRobustLogDeletion": [
+    "yarn.log-aggregation.retain-seconds",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.retain-check-interval-seconds",
+    "yarn.log-aggregation.file-formats",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "fs.mockfs.impl"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory#testDefaultLogAggregationFileControllerFactory": [
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation-enable"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory#testClassConfUsed": [
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.file-formats",
+    "yarn.log-aggregation.TFile.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation-enable",
+    "yarn.log-aggregation.TFile.remote-app-log-dir-suffix"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory#testLogAggregationFileControllerFactoryClassNotSet": [
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation-enable",
+    "yarn.log-aggregation.file-formats"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory#testLogAggregationFileControllerFactory": [
+    "yarn.log-aggregation.file-controller.IFile.class",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.TestLogAggregationFileController.remote-app-log-dir",
+    "yarn.log-aggregation.IFile.remote-app-log-dir",
+    "yarn.log-aggregation.IFile.remote-app-log-dir-suffix",
+    "yarn.log-aggregation.file-controller.TFile.class",
+    "yarn.log-aggregation.file-controller.TestLogAggregationFileController.class",
+    "yarn.log-aggregation.file-formats",
+    "yarn.log-aggregation.TFile.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.log-aggregation.TestLogAggregationFileController.remote-app-log-dir-suffix",
+    "yarn.log-aggregation-enable",
+    "yarn.log-aggregation.TFile.remote-app-log-dir-suffix"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory#testNodemanagerConfigurationIsUsed": [
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation-enable",
+    "yarn.log-aggregation.file-formats"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileControllerFactory#testDefaultConfUsed": [
+    "yarn.nodemanager.remote-app-log-dir",
+    "yarn.nodemanager.remote-app-log-dir-suffix",
+    "yarn.log-aggregation-enable",
+    "yarn.log-aggregation.file-formats"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.TestLogAggregationFileController#testRemoteDirCreationWithCustomGroup": [
+    "yarn.nodemanager.remote-app-log-dir.groupname"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController#testFetchApplictionLogsHar": [
+    "yarn.log-aggregation.Indexed.remote-app-log-dir",
+    "fs.option.openfile.length",
+    "fs.option.openfile.read.policy",
+    "yarn.nodemanager.log-aggregation.compression-type",
+    "yarn.log-aggregation.Indexed.remote-app-log-dir-suffix",
+    "io.file.buffer.size"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController#testGetLogMetaFilesOfNode": [
+    "io.file.buffer.size",
+    "yarn.log-aggregation.Indexed.remote-app-log-dir",
+    "yarn.log-aggregation.Indexed.remote-app-log-dir-suffix",
+    "yarn.nodemanager.log-aggregation.compression-type"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController#testGetRollOverLogMaxSize": [
+    "hadoop.ssl.require.client.cert",
+    "yarn.log-aggregation.Indexed.remote-app-log-dir",
+    "yarn.log-aggregation.Indexed.remote-app-log-dir-suffix",
+    "yarn.nodemanager.log-aggregation.compression-type"
+  ],
+  "org.apache.hadoop.yarn.logaggregation.filecontroller.ifile.TestLogAggregationIndexedFileController#testLogAggregationIndexFileFormat": [
+    "yarn.log-aggregation.Indexed.remote-app-log-dir",
+    "yarn.nodemanager.log-aggregation.compression-type",
+    "io.file.buffer.size",
+    "yarn.log-aggregation.file-formats",
+    "yarn.log-aggregation.Indexed.remote-app-log-dir-suffix"
+  ],
+  "org.apache.hadoop.yarn.TestRpcFactoryProvider#testFactoryProvider": [
+    "yarn.ipc.client.factory.class",
+    "yarn.ipc.record.factory.class",
+    "yarn.ipc.server.factory.class"
+  ],
+  "org.apache.hadoop.yarn.conf.TestYarnConfiguration#testUpdateConnectAddr": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.bind-host",
+    "yarn.nodemanager.localizer.address",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.nodemanager.bind-host",
+    "yarn.resourcemanager.resource-tracker.address"
+  ],
+  "org.apache.hadoop.yarn.conf.TestYarnConfiguration#testGetSocketAddressForNMWithHA": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.nodemanager.address"
+  ],
+  "org.apache.hadoop.yarn.conf.TestYarnConfiguration#testRMWebUrlSpecified": [
+    "yarn.resourcemanager.address",
+    "yarn.resourcemanager.webapp.address"
+  ],
+  "org.apache.hadoop.yarn.conf.TestYarnConfiguration#testDefaultRMWebUrl": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.hostname.rm1",
+    "yarn.resourcemanager.hostname.rm2",
+    "yarn.resourcemanager.webapp.address.rm2",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.resourcemanager.webapp.address.rm1",
+    "yarn.resourcemanager.ha.rm-ids"
+  ],
+  "org.apache.hadoop.yarn.conf.TestYarnConfiguration#testGetSocketAddr": [
+    "yarn.resourcemanager.resource-tracker.address",
+    "yarn.resourcemanager.bind-host"
+  ],
+  "org.apache.hadoop.yarn.conf.TestHAUtil#testVerifyAndSetConfiguration": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.address.rm2",
+    "yarn.resourcemanager.address.rm3",
+    "yarn.resourcemanager.ha.automatic-failover.enabled",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.resource-tracker.address",
+    "yarn.resourcemanager.scheduler.address.rm",
+    "yarn.resourcemanager.ha.curator-leader-elector.enabled",
+    "yarn.resourcemanager.scheduler.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm2",
+    "yarn.resourcemanager.address.rm",
+    "yarn.resourcemanager.webapp.address.rm",
+    "yarn.resourcemanager.webapp.address.rm3",
+    "yarn.resourcemanager.admin.address",
+    "yarn.resourcemanager.admin.address.rm2",
+    "yarn.resourcemanager.resource-tracker.address.rm3",
+    "yarn.resourcemanager.scheduler.address.rm3",
+    "yarn.resourcemanager.ha.enabled",
+    "yarn.resourcemanager.webapp.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm1",
+    "yarn.resourcemanager.webapp.address",
+    "yarn.resourcemanager.admin.address.rm",
+    "yarn.resourcemanager.resource-tracker.address.rm1",
+    "yarn.resourcemanager.resource-tracker.address.rm2",
+    "yarn.resourcemanager.scheduler.address",
+    "yarn.resourcemanager.address",
+    "yarn.resourcemanager.address.rm1",
+    "yarn.resourcemanager.resource-tracker.address.rm",
+    "yarn.resourcemanager.admin.address.rm3",
+    "yarn.resourcemanager.admin.address.rm1",
+    "yarn.resourcemanager.ha.automatic-failover.embedded"
+  ],
+  "org.apache.hadoop.yarn.conf.TestHAUtil#testGetRMServiceId": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.admin.address.rm2",
+    "yarn.resourcemanager.address.rm2",
+    "yarn.resourcemanager.resource-tracker.address.rm1",
+    "yarn.resourcemanager.resource-tracker.address.rm2",
+    "yarn.resourcemanager.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm1",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.admin.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm1"
+  ],
+  "org.apache.hadoop.yarn.conf.TestHAUtil#testGetRMId": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.admin.address.rm2",
+    "yarn.resourcemanager.address.rm2",
+    "yarn.resourcemanager.resource-tracker.address.rm1",
+    "yarn.resourcemanager.resource-tracker.address.rm2",
+    "yarn.resourcemanager.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm1",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.admin.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm1"
+  ],
+  "org.apache.hadoop.yarn.conf.TestHAUtil#testGetConfKeyForRMInstance": [
+    "yarn.resourcemanager.ha.id",
+    "yarn.resourcemanager.admin.address.rm2",
+    "yarn.resourcemanager.address.rm2",
+    "yarn.resourcemanager.resource-tracker.address.rm1",
+    "yarn.resourcemanager.resource-tracker.address.rm2",
+    "yarn.resourcemanager.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm2",
+    "yarn.resourcemanager.webapp.address.rm1",
+    "yarn.resourcemanager.ha.rm-ids",
+    "yarn.resourcemanager.admin.address.rm1",
+    "yarn.resourcemanager.scheduler.address.rm1"
+  ],
+  "org.apache.hadoop.yarn.security.TestYARNTokenIdentifier#testParseTimelineDelegationTokenIdentifierRenewer": [
+    "hadoop.security.auth_to_local"
+  ]
+}
