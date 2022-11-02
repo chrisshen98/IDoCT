@@ -11,11 +11,16 @@ for file in files:
             path = temp.split("")[0]
             testClass = temp.split("")[1].split("1m")[1]
             tempClass = path+testClass
-            testClasses.append("\""+tempClass+"\"")
+            msg = "\""+tempClass+"\""
+            if msg  not in testClasses:
+                testClasses.append("\""+tempClass+"\"")
         elif "("+tempClass+")" in line:
             temp = line.split("("+tempClass+")")[0]
             testMethod = temp.split("] ")[1]
-            testMethods.append("\""+tempClass+"#"+testMethod+"\"")
+            testMethod = testMethod.split("[")[0]
+            msg = "\""+tempClass+"#"+testMethod+"\""
+            if msg not in testMethods:
+                testMethods.append(msg)
             
 print("\n"+"Test classes:"+"\n")
 toWrite = "["
