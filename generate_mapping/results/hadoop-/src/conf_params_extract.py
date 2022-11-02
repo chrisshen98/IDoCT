@@ -14,11 +14,11 @@ for file in files:
             testClasses.append("\""+tempClass+"\"")
         elif "("+tempClass+")" in line:
             temp = line.split("("+tempClass+")")[0]
-            testMethod = temp.split("] ")[0]
+            testMethod = temp.split("] ")[1]
             testMethods.append("\""+tempClass+"#"+testMethod+"\"")
             
 print("\n"+"Test classes:"+"\n")
-toWrite = "{"
+toWrite = "["
 first = True
 for item in testClasses:
     if not first:
@@ -27,13 +27,13 @@ for item in testClasses:
     toWrite += "\n"+"\t"+item
     # print(item)
     # print("\n")
-toWrite += "\n}"
+toWrite += "\n]"
 f = open("../test_class_list.json", "w")
 f.write(toWrite)
 f.close()
 
 print("\n"+"Test methods:"+"\n")
-toWrite = "{"
+toWrite = "["
 first = True
 for item in testMethods:
     if not first:
@@ -41,7 +41,7 @@ for item in testMethods:
     first = False
     toWrite += "\n"+"\t"+item
     # print(item)
-toWrite += "\n}"
+toWrite += "\n]"
 f = open("../test_method_list.json", "w")
 f.write(toWrite)
 f.close()
