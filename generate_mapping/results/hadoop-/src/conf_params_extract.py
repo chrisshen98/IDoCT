@@ -15,7 +15,8 @@ for file in files:
         f = open(file)
         f = f.readlines()
         for line in f:
-            if "[CTEST]" in line:
+            if line.startswith("[CTEST]"):
+            # if "[CTEST]" in line:
                 param = line.split(" ")[1]
                 if param not in params:
                     params.append(param)
