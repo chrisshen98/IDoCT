@@ -12,6 +12,7 @@ HDFS = "hadoop-hdfs"
 HBASE = "hbase-server"
 ZOOKEEPER = "zookeeper-server"
 ALLUXIO = "alluxio-core"
+HDFSRBF = "hadoop-hdfs-rbf"
 
 CTEST_HADOOP_DIR = os.path.join(APP_DIR, "hadoop")
 CTEST_HBASE_DIR = os.path.join(APP_DIR, "ctest-hbase")
@@ -24,6 +25,7 @@ PROJECT_DIR = {
     HBASE: CTEST_HBASE_DIR,
     ZOOKEEPER: CTEST_ZK_DIR,
     ALLUXIO: CTEST_ALLUXIO_DIR,
+    HDFSRBF: CTEST_HADOOP_DIR,
 }
 
 
@@ -34,6 +36,7 @@ MODULE_SUBDIR = {
     HBASE: "hbase-server",
     ZOOKEEPER: "zookeeper-server",
     ALLUXIO: "core",
+    HDFSRBF: "hadoop-hdfs-project/hadoop-hdfs-rbf",
 }
 
 
@@ -58,6 +61,7 @@ SUREFIRE_DIR = {
         os.path.join(CTEST_ALLUXIO_DIR, MODULE_SUBDIR[ALLUXIO], "server/worker", SUREFIRE_SUBDIR),
         os.path.join(CTEST_ALLUXIO_DIR, MODULE_SUBDIR[ALLUXIO], "server/master", SUREFIRE_SUBDIR),
     ],
+    HDFSRBF: [os.path.join(CTEST_HADOOP_DIR, MODULE_SUBDIR[HDFSRBF], SUREFIRE_SUBDIR)],
 }
 
 # default or deprecate conf path
@@ -66,7 +70,8 @@ DEFAULT_CONF_DIR = os.path.join(CUR_DIR, "../hadoop/")
 
 DEPRECATE_CONF_FILE = {
     HCOMMON: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
-    HDFS: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list")
+    HDFS: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
+    HDFSRBF: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list")
 }
 
 DEFAULT_CONF_FILE = {
@@ -74,7 +79,8 @@ DEFAULT_CONF_FILE = {
     HDFS: os.path.join(DEFAULT_CONF_DIR, HDFS + "-default.tsv"),
     HBASE: os.path.join(DEFAULT_CONF_DIR, HBASE + "-default.tsv"),
     ALLUXIO: os.path.join(DEFAULT_CONF_DIR, ALLUXIO + "-default.tsv"),
-    ZOOKEEPER: os.path.join(DEFAULT_CONF_DIR, ZOOKEEPER + "-default.tsv")
+    ZOOKEEPER: os.path.join(DEFAULT_CONF_DIR, ZOOKEEPER + "-default.tsv"),
+    HDFSRBF: os.path.join(DEFAULT_CONF_DIR, HDFSRBF + "-default.tsv")
 }
 
 
@@ -96,6 +102,9 @@ INJECTION_PATH = {
     ],
     ALLUXIO: [
         os.path.join(CTEST_ALLUXIO_DIR, "core/alluxio-ctest.properties")
+    ],
+    HDFSRBF: [
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/core-ctest.xml")
     ]
 }
 
