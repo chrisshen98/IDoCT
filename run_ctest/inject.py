@@ -21,11 +21,7 @@ def inject_config(param_value_pairs):
             for p, v in param_value_pairs.items():
                 file.write(p + "=" + v + "\n")
             file.close()
-<<<<<<< HEAD
     elif project in [HCOMMON, YARN, DISTCP, HDFS, HBASE]:
-=======
-    elif project in [HCOMMON, HDFS, HBASE, HDFSRBF]:
->>>>>>> cfbd5545a54e5554cf2a023b99b187256bd815f0
         conf = ET.Element("configuration")
         for p, v in param_value_pairs.items():
             prop = ET.SubElement(conf, "property")
@@ -50,11 +46,7 @@ def clean_conf_file(project):
             file = open(inject_path, "w")
             file.write("\n")
             file.close()
-<<<<<<< HEAD
     elif project in [HCOMMON, HDFS, YARN, DISTCP, HBASE]:
-=======
-    elif project in [HCOMMON, HDFS, HBASE, HDFSRBF]:
->>>>>>> cfbd5545a54e5554cf2a023b99b187256bd815f0
         conf = ET.Element("configuration")
         for inject_path in INJECTION_PATH[project]:
             file = open(inject_path, "wb")
