@@ -125,7 +125,7 @@ INJECTION_PATH = {
     ],
     HDFSRBF: [
         os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs/target/classes/core-ctest.xml"),
-        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/hdfs-ctest.xml")
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/hdfs-rbf-ctest.xml")
     ]
 }
 
