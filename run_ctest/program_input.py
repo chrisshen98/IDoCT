@@ -4,19 +4,11 @@ p_input = {
     # run mode
     "run_mode": "run_ctest", # string
     # name of the project, i.e. hadoop-common, hadoop-hdfs
-<<<<<<< HEAD
-    "project": "hadoop-distcp", # string
-    # path to param -> tests json mapping
-    "mapping_path": "../generate_mapping/results/hadoop-distcp/param_unset_getter_map.json", # string
-    # input directory hosting configuration files to be test, target-project-format specific
-    "conf_file_dir": "sample-hadoop-distcp", # string
-=======
     "project": "hadoop-hdfs-rbf", # string
     # path to param -> tests json mapping
     "mapping_path": "../generate_mapping/results/hadoop-hdfs-rbf/param_unset_getter_map.json", # string
     # input directory hosting configuration files to be test, target-project-format specific
     "conf_file_dir": "sample-hadoop-hdfs-rbf", # string
->>>>>>> cfbd5545a54e5554cf2a023b99b187256bd815f0
     # display the terminal output live, without saving any results
     "display_mode": False, # bool
     # whether to use mvn test or mvn surefire:test

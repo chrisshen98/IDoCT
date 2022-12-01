@@ -79,9 +79,9 @@ DEFAULT_CONF_DIR = os.path.join(CUR_DIR, "../hadoop/")
 DEPRECATE_CONF_FILE = {
     HCOMMON: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
     HDFS: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
+    HDFSRBF: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
     YARN: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
-    DISTCP: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list"),
-    HDFSRBF: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list")
+    DISTCP: os.path.join(DEPRECATE_CONF_DIR, "hadoop.list")
 }
 
 DEFAULT_CONF_FILE = {
@@ -122,7 +122,7 @@ INJECTION_PATH = {
         os.path.join(CTEST_ALLUXIO_DIR, "core/alluxio-ctest.properties")
     ],
     HDFSRBF: [
-        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/core-ctest.xml")
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/hdfs-rbf-ctest.xml")
     ]
 }
 
