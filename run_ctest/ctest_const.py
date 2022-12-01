@@ -106,10 +106,12 @@ INJECTION_PATH = {
         os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs/target/classes/hdfs-ctest.xml")
     ],
     YARN: [
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs/target/classes/core-ctest.xml"),
         os.path.join(CTEST_HADOOP_DIR, "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/core-ctest.xml")
     ],
     DISTCP: [
-        os.path.join(CTEST_HADOOP_DIR, "hadoop-common-project/hadoop-common/target/classes/core-ctest.xml")
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs/target/classes/core-ctest.xml"),
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-tools/hadoop-distcp/target/classes/distcp-ctest.xml")
     ],
     HBASE: [
         os.path.join(CTEST_HBASE_DIR, "hbase-server/target/classes/core-ctest.xml"),
@@ -122,7 +124,8 @@ INJECTION_PATH = {
         os.path.join(CTEST_ALLUXIO_DIR, "core/alluxio-ctest.properties")
     ],
     HDFSRBF: [
-        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/hdfs-rbf-ctest.xml")
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs/target/classes/core-ctest.xml"),
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs-rbf/target/classes/hdfs-ctest.xml")
     ]
 }
 
