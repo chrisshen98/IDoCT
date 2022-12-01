@@ -1,0 +1,498 @@
+>>>>[ctest_core] loading mapping ../generate_mapping/results/hadoop-yarn-common/param_unset_getter_map.json
+>>>>[ctest_core] loading mapping ../generate_mapping/results/hadoop-yarn-common/param_unset_getter_map.json
+>>>>[ctest_core] running project hadoop-yarn-common
+>>>>[ctest_core] # parameters associated with the run: 1
+>>>>[ctest_core] start running ctests for 1 parameters
+>>>>[ctest_core] splitting into 1 ctest group
+>>>>[ctest_core] group 0, tested_params: hadoop.security.auth_to_local.mechanism, group size: 1
+>>>>[ctest_core] injecting hadoop.security.auth_to_local.mechanism with value hadoop
+>>>>[ctest_core] injecting into file: /home/yuanfei2/IDoCT/run_ctest/../../hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/yarn-common-ctest.xml
+>>>>[ctest_core] running group 0 where 1 params shares 1 ctests
+>>>>[ctest_core] chdir to /home/yuanfei2/IDoCT/run_ctest/../../hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common
+>>>>[ctest_core] command: mvn surefire:test -Dtest=org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testDelegationTokenOperationsRetry,
+>>>>[ctest_core] chdir to /home/yuanfei2/IDoCT/run_ctest/run_ctest
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-yarn-common:jar:3.4.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.hadoop:hadoop-yarn:3.4.0-SNAPSHOT, /home/yuanfei2/hadoop/hadoop-yarn-project/hadoop-yarn/pom.xml, line 78, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 5.4
+[INFO] os.detected.version.major: 5
+[INFO] os.detected.version.minor: 4
+[INFO] os.detected.release: ubuntu
+[INFO] os.detected.release.version: 20.04
+[INFO] os.detected.release.like.ubuntu: true
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] 
+[INFO] ----------------< org.apache.hadoop:hadoop-yarn-common >----------------
+[INFO] Building Apache Hadoop YARN Common 3.4.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-cli) @ hadoop-yarn-common ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.hadoop.yarn.client.api.impl.TestTimelineClient
+2022-11-30 21:33:28,065 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] yarn.timeline-service.enabled java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] yarn.timeline-service.enabled java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:28,074 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][SET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:28,211 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] yarn.timeline-service.version java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] yarn.timeline-service.version java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:28,235 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] yarn.timeline-service.version [Result] 1.0
+[MYCTEST][SET-PARAM] yarn.timeline-service.version [Result] 1.0
+2022-11-30 21:33:28,480 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.enabled
+[CTEST][GET-PARAM] yarn.timeline-service.enabled
+2022-11-30 21:33:28,481 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:28,481 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.versions
+[CTEST][GET-PARAM] yarn.timeline-service.versions
+2022-11-30 21:33:28,481 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+[MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+2022-11-30 21:33:28,482 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.version
+[CTEST][GET-PARAM] yarn.timeline-service.version
+2022-11-30 21:33:28,482 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0
+[MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0
+2022-11-30 21:33:28,482 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.enabled
+[CTEST][GET-PARAM] yarn.timeline-service.enabled
+2022-11-30 21:33:28,482 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:28,482 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.versions
+[CTEST][GET-PARAM] yarn.timeline-service.versions
+2022-11-30 21:33:28,483 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+[MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+2022-11-30 21:33:28,483 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.version
+[CTEST][GET-PARAM] yarn.timeline-service.version
+2022-11-30 21:33:28,483 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0
+[MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0
+2022-11-30 21:33:28,579 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.token.service.use_ip
+[CTEST][GET-PARAM] hadoop.security.token.service.use_ip
+2022-11-30 21:33:28,580 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.token.service.use_ip [Result] true
+[MYCTEST][GET-PARAM] hadoop.security.token.service.use_ip [Result] true
+2022-11-30 21:33:28,580 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.enabled
+[CTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.enabled
+2022-11-30 21:33:28,581 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.enabled [Result] false
+[MYCTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.enabled [Result] false
+2022-11-30 21:33:28,581 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.threshold.ms
+[CTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.threshold.ms
+2022-11-30 21:33:28,581 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.threshold.ms [Result] 1000
+[MYCTEST][GET-PARAM] hadoop.security.dns.log-slow-lookups.threshold.ms [Result] 1000
+2022-11-30 21:33:28,583 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.resolver.impl
+[CTEST][GET-PARAM] hadoop.security.resolver.impl
+2022-11-30 21:33:28,583 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.resolver.impl [Result] org.apache.hadoop.net.DNSDomainNameResolver
+[MYCTEST][GET-PARAM] hadoop.security.resolver.impl [Result] org.apache.hadoop.net.DNSDomainNameResolver
+2022-11-30 21:33:28,600 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.authentication
+[CTEST][GET-PARAM] hadoop.security.authentication
+2022-11-30 21:33:28,602 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.authentication [Result] simple
+[MYCTEST][GET-PARAM] hadoop.security.authentication [Result] simple
+2022-11-30 21:33:28,605 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.authentication
+[CTEST][GET-PARAM] hadoop.security.authentication
+2022-11-30 21:33:28,606 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.authentication [Result] simple
+[MYCTEST][GET-PARAM] hadoop.security.authentication [Result] simple
+2022-11-30 21:33:28,606 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.auth_to_local
+[CTEST][GET-PARAM] hadoop.security.auth_to_local
+2022-11-30 21:33:28,607 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.auth_to_local [Result] RULE:[1:$1] RULE:[2:$1]
+[MYCTEST][GET-PARAM] hadoop.security.auth_to_local [Result] RULE:[1:$1] RULE:[2:$1]
+2022-11-30 21:33:28,608 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism
+[CTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism
+2022-11-30 21:33:28,608 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism [Result] hadoop
+[MYCTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism [Result] hadoop
+2022-11-30 21:33:28,609 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin
+[CTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin
+2022-11-30 21:33:28,609 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin [Result] 60
+[MYCTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin [Result] 60
+2022-11-30 21:33:28,609 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled
+[CTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled
+2022-11-30 21:33:28,609 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled [Result] false
+[MYCTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled [Result] false
+2022-11-30 21:33:28,613 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.group.mapping
+[CTEST][GET-PARAM] hadoop.security.group.mapping
+2022-11-30 21:33:28,613 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.group.mapping [Result] org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback
+[MYCTEST][GET-PARAM] hadoop.security.group.mapping [Result] org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback
+2022-11-30 21:33:28,614 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(60)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-11-30 21:33:28,615 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.groups.cache.secs
+[CTEST][GET-PARAM] hadoop.security.groups.cache.secs
+2022-11-30 21:33:28,615 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.groups.cache.secs [Result] 300
+[MYCTEST][GET-PARAM] hadoop.security.groups.cache.secs [Result] 300
+2022-11-30 21:33:28,616 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.groups.negative-cache.secs
+[CTEST][GET-PARAM] hadoop.security.groups.negative-cache.secs
+2022-11-30 21:33:28,616 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.groups.negative-cache.secs [Result] 30
+[MYCTEST][GET-PARAM] hadoop.security.groups.negative-cache.secs [Result] 30
+2022-11-30 21:33:28,616 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.groups.cache.warn.after.ms
+[CTEST][GET-PARAM] hadoop.security.groups.cache.warn.after.ms
+2022-11-30 21:33:28,617 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.groups.cache.warn.after.ms [Result] 5000
+[MYCTEST][GET-PARAM] hadoop.security.groups.cache.warn.after.ms [Result] 5000
+2022-11-30 21:33:28,617 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.groups.cache.background.reload
+[CTEST][GET-PARAM] hadoop.security.groups.cache.background.reload
+2022-11-30 21:33:28,617 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.groups.cache.background.reload [Result] false
+[MYCTEST][GET-PARAM] hadoop.security.groups.cache.background.reload [Result] false
+2022-11-30 21:33:28,617 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.security.groups.cache.background.reload.threads
+[CTEST][GET-PARAM] hadoop.security.groups.cache.background.reload.threads
+2022-11-30 21:33:28,620 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.security.groups.cache.background.reload.threads [Result] 3
+[MYCTEST][GET-PARAM] hadoop.security.groups.cache.background.reload.threads [Result] 3
+2022-11-30 21:33:28,621 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.user.group.static.mapping.overrides
+[CTEST][GET-PARAM] hadoop.user.group.static.mapping.overrides
+2022-11-30 21:33:28,621 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.user.group.static.mapping.overrides [Result] dr.who=;
+[MYCTEST][GET-PARAM] hadoop.user.group.static.mapping.overrides [Result] dr.who=;
+2022-11-30 21:33:28,674 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals
+[CTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals
+2022-11-30 21:33:28,684 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals [Result] null
+[MYCTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals [Result] null
+2022-11-30 21:33:28,701 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.token.files
+[CTEST][GET-PARAM] hadoop.token.files
+2022-11-30 21:33:28,702 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.token.files [Result] null
+[MYCTEST][GET-PARAM] hadoop.token.files [Result] null
+2022-11-30 21:33:28,702 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.tokens
+[CTEST][GET-PARAM] hadoop.tokens
+2022-11-30 21:33:28,702 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.tokens [Result] null
+[MYCTEST][GET-PARAM] hadoop.tokens [Result] null
+2022-11-30 21:33:28,720 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:28,720 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:28,721 WARN  [main] conf.Configuration (Configuration.java:getRaw(1375)) - [CTEST][GET-PARAM] yarn.timeline-service.hostname
+[CTEST][GET-PARAM] yarn.timeline-service.hostname
+2022-11-30 21:33:28,721 WARN  [main] conf.Configuration (Configuration.java:getRaw(1377)) - [MYCTEST][GET-PARAM] yarn.timeline-service.hostname [Result] 0.0.0.0
+[MYCTEST][GET-PARAM] yarn.timeline-service.hostname [Result] 0.0.0.0
+2022-11-30 21:33:28,721 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.webapp.address
+[CTEST][GET-PARAM] yarn.timeline-service.webapp.address
+2022-11-30 21:33:28,721 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.webapp.address [Result] 0.0.0.0:8188
+[MYCTEST][GET-PARAM] yarn.timeline-service.webapp.address [Result] 0.0.0.0:8188
+2022-11-30 21:33:28,721 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+[CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+2022-11-30 21:33:28,721 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] simple
+[MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] simple
+2022-11-30 21:33:28,721 INFO  [main] impl.TimelineClientImpl (TimelineClientImpl.java:serviceInit(139)) - Timeline service address: 0.0.0.0:8188
+2022-11-30 21:33:28,726 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:28,727 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:28,727 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+[CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+2022-11-30 21:33:28,727 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] simple
+[MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] simple
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+[CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 30
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 30
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+[CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 1000
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 1000
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+[CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 30
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 30
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+[CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+2022-11-30 21:33:28,729 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 1000
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 1000
+2022-11-30 21:33:29,105 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:29,106 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:29,651 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] yarn.timeline-service.client.max-retries java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] yarn.timeline-service.client.max-retries java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:29,652 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+[MYCTEST][SET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+2022-11-30 21:33:29,666 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] yarn.timeline-service.client.retry-interval-ms java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] yarn.timeline-service.client.retry-interval-ms java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:29,668 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+[MYCTEST][SET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+2022-11-30 21:33:29,670 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] yarn.timeline-service.enabled java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] yarn.timeline-service.enabled java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:29,672 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][SET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:29,674 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] hadoop.security.authentication java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] hadoop.security.authentication java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:29,675 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] hadoop.security.authentication [Result] kerberos
+[MYCTEST][SET-PARAM] hadoop.security.authentication [Result] kerberos
+2022-11-30 21:33:29,675 WARN  [main] conf.Configuration (Configuration.java:set(1456)) - [CTEST][SET-PARAM] yarn.timeline-service.http-authentication.type java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+[CTEST][SET-PARAM] yarn.timeline-service.http-authentication.type java.lang.Thread	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.conf.Configuration	org.apache.hadoop.yarn.client.api.impl.TestTimelineClient	sun.reflect.NativeMethodAccessorImpl	sun.reflect.NativeMethodAccessorImpl	sun.reflect.DelegatingMethodAccessorImpl	java.lang.reflect.Method	org.junit.runners.model.FrameworkMethod$1	org.junit.internal.runners.model.ReflectiveCallable	org.junit.runners.model.FrameworkMethod	org.junit.internal.runners.statements.InvokeMethod	org.junit.internal.runners.statements.RunBefores	org.junit.internal.runners.statements.RunAfters	org.junit.runners.ParentRunner$3	org.junit.runners.BlockJUnit4ClassRunner$1	org.junit.runners.ParentRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.BlockJUnit4ClassRunner	org.junit.runners.ParentRunner$4	org.junit.runners.ParentRunner$1	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner	org.junit.runners.ParentRunner$2	org.junit.runners.ParentRunner$3	org.junit.runners.ParentRunner	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.junit4.JUnit4Provider	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	org.apache.maven.surefire.booter.ForkedBooter	
+2022-11-30 21:33:29,675 WARN  [main] conf.Configuration (Configuration.java:set(1458)) - [MYCTEST][SET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+[MYCTEST][SET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+2022-11-30 21:33:29,676 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.authentication
+[CTEST][GET-PARAM] hadoop.security.authentication
+2022-11-30 21:33:29,676 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.authentication [Result] kerberos
+[MYCTEST][GET-PARAM] hadoop.security.authentication [Result] kerberos
+2022-11-30 21:33:29,676 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.authentication
+[CTEST][GET-PARAM] hadoop.security.authentication
+2022-11-30 21:33:29,676 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.authentication [Result] kerberos
+[MYCTEST][GET-PARAM] hadoop.security.authentication [Result] kerberos
+2022-11-30 21:33:29,692 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.auth_to_local
+[CTEST][GET-PARAM] hadoop.security.auth_to_local
+2022-11-30 21:33:29,693 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.auth_to_local [Result] DEFAULT
+[MYCTEST][GET-PARAM] hadoop.security.auth_to_local [Result] DEFAULT
+2022-11-30 21:33:29,694 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism
+[CTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism
+2022-11-30 21:33:29,695 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism [Result] hadoop
+[MYCTEST][GET-PARAM] hadoop.security.auth_to_local.mechanism [Result] hadoop
+2022-11-30 21:33:29,695 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin
+[CTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin
+2022-11-30 21:33:29,695 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin [Result] 60
+[MYCTEST][GET-PARAM] hadoop.kerberos.min.seconds.before.relogin [Result] 60
+2022-11-30 21:33:29,695 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled
+[CTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled
+2022-11-30 21:33:29,696 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled [Result] false
+[MYCTEST][GET-PARAM] hadoop.kerberos.keytab.login.autorenewal.enabled [Result] false
+2022-11-30 21:33:29,697 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals
+[CTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals
+2022-11-30 21:33:29,698 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals [Result] null
+[MYCTEST][GET-PARAM] hadoop.user.group.metrics.percentiles.intervals [Result] null
+2022-11-30 21:33:29,698 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.enabled
+[CTEST][GET-PARAM] yarn.timeline-service.enabled
+2022-11-30 21:33:29,698 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:29,698 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.versions
+[CTEST][GET-PARAM] yarn.timeline-service.versions
+2022-11-30 21:33:29,699 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+[MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+2022-11-30 21:33:29,699 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.version
+[CTEST][GET-PARAM] yarn.timeline-service.version
+2022-11-30 21:33:29,700 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+[MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+2022-11-30 21:33:29,700 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.enabled
+[CTEST][GET-PARAM] yarn.timeline-service.enabled
+2022-11-30 21:33:29,701 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:29,701 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.versions
+[CTEST][GET-PARAM] yarn.timeline-service.versions
+2022-11-30 21:33:29,702 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+[MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+2022-11-30 21:33:29,706 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.version
+[CTEST][GET-PARAM] yarn.timeline-service.version
+2022-11-30 21:33:29,707 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+[MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+2022-11-30 21:33:29,707 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:29,708 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:29,708 WARN  [main] conf.Configuration (Configuration.java:getRaw(1375)) - [CTEST][GET-PARAM] yarn.timeline-service.hostname
+[CTEST][GET-PARAM] yarn.timeline-service.hostname
+2022-11-30 21:33:29,709 WARN  [main] conf.Configuration (Configuration.java:getRaw(1377)) - [MYCTEST][GET-PARAM] yarn.timeline-service.hostname [Result] 0.0.0.0
+[MYCTEST][GET-PARAM] yarn.timeline-service.hostname [Result] 0.0.0.0
+2022-11-30 21:33:29,710 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.webapp.address
+[CTEST][GET-PARAM] yarn.timeline-service.webapp.address
+2022-11-30 21:33:29,710 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.webapp.address [Result] 0.0.0.0:8188
+[MYCTEST][GET-PARAM] yarn.timeline-service.webapp.address [Result] 0.0.0.0:8188
+2022-11-30 21:33:29,710 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+[CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+2022-11-30 21:33:29,710 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+[MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+2022-11-30 21:33:29,712 INFO  [main] impl.TimelineClientImpl (TimelineClientImpl.java:serviceInit(139)) - Timeline service address: 0.0.0.0:8188
+2022-11-30 21:33:29,712 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:29,712 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:29,714 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+[CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+2022-11-30 21:33:29,719 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+[MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+2022-11-30 21:33:29,723 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+[CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+2022-11-30 21:33:29,724 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+2022-11-30 21:33:29,725 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+[CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+2022-11-30 21:33:29,725 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+2022-11-30 21:33:29,726 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+[CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+2022-11-30 21:33:29,726 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+2022-11-30 21:33:29,730 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+[CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+2022-11-30 21:33:29,730 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+2022-11-30 21:33:29,878 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:29,879 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:29,881 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.enabled
+[CTEST][GET-PARAM] yarn.timeline-service.enabled
+2022-11-30 21:33:29,881 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:29,882 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.versions
+[CTEST][GET-PARAM] yarn.timeline-service.versions
+2022-11-30 21:33:29,883 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+[MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+2022-11-30 21:33:29,883 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.version
+[CTEST][GET-PARAM] yarn.timeline-service.version
+2022-11-30 21:33:29,884 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+[MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+2022-11-30 21:33:29,884 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.enabled
+[CTEST][GET-PARAM] yarn.timeline-service.enabled
+2022-11-30 21:33:29,884 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+[MYCTEST][GET-PARAM] yarn.timeline-service.enabled [Result] true
+2022-11-30 21:33:29,885 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.versions
+[CTEST][GET-PARAM] yarn.timeline-service.versions
+2022-11-30 21:33:29,885 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+[MYCTEST][GET-PARAM] yarn.timeline-service.versions [Result] null
+2022-11-30 21:33:29,886 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.version
+[CTEST][GET-PARAM] yarn.timeline-service.version
+2022-11-30 21:33:29,886 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+[MYCTEST][GET-PARAM] yarn.timeline-service.version [Result] 1.0f
+2022-11-30 21:33:29,894 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:29,895 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:29,896 WARN  [main] conf.Configuration (Configuration.java:getRaw(1375)) - [CTEST][GET-PARAM] yarn.timeline-service.hostname
+[CTEST][GET-PARAM] yarn.timeline-service.hostname
+2022-11-30 21:33:29,896 WARN  [main] conf.Configuration (Configuration.java:getRaw(1377)) - [MYCTEST][GET-PARAM] yarn.timeline-service.hostname [Result] 0.0.0.0
+[MYCTEST][GET-PARAM] yarn.timeline-service.hostname [Result] 0.0.0.0
+2022-11-30 21:33:29,897 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.webapp.address
+[CTEST][GET-PARAM] yarn.timeline-service.webapp.address
+2022-11-30 21:33:29,898 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.webapp.address [Result] 0.0.0.0:8188
+[MYCTEST][GET-PARAM] yarn.timeline-service.webapp.address [Result] 0.0.0.0:8188
+2022-11-30 21:33:29,898 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+[CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+2022-11-30 21:33:29,899 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+[MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+2022-11-30 21:33:29,899 INFO  [main] impl.TimelineClientImpl (TimelineClientImpl.java:serviceInit(139)) - Timeline service address: 0.0.0.0:8188
+2022-11-30 21:33:29,900 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:29,900 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:29,901 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+[CTEST][GET-PARAM] yarn.timeline-service.http-authentication.type
+2022-11-30 21:33:29,902 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+[MYCTEST][GET-PARAM] yarn.timeline-service.http-authentication.type [Result] kerberos
+2022-11-30 21:33:29,903 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+[CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+2022-11-30 21:33:29,903 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+2022-11-30 21:33:29,904 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+[CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+2022-11-30 21:33:29,905 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+2022-11-30 21:33:29,905 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+[CTEST][GET-PARAM] yarn.timeline-service.client.max-retries
+2022-11-30 21:33:29,906 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.max-retries [Result] 5
+2022-11-30 21:33:29,907 WARN  [main] conf.Configuration (Configuration.java:get(1277)) - [CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+[CTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms
+2022-11-30 21:33:29,907 WARN  [main] conf.Configuration (Configuration.java:get(1279)) - [MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+[MYCTEST][GET-PARAM] yarn.timeline-service.client.retry-interval-ms [Result] 500
+2022-11-30 21:33:30,034 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:30,034 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:30,139 INFO  [main] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:updateCurrentKey(424)) - Updating the current master key for generating delegation tokens
+2022-11-30 21:33:30,170 INFO  [Thread[Thread-2,5,main]] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:run(778)) - Starting expired delegation token remover thread, tokenRemoverScanInterval=1 min(s)
+2022-11-30 21:33:30,173 INFO  [Thread[Thread-2,5,main]] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:updateCurrentKey(424)) - Updating the current master key for generating delegation tokens
+2022-11-30 21:33:33,179 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:33,180 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:33,320 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 5 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:33,820 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:33,821 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:33,822 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 4 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:34,322 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:34,322 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:34,324 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 3 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:34,824 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:34,825 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:34,826 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 2 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:35,326 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:35,327 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:35,328 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 1 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:35,829 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:35,830 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:35,930 INFO  [main] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:createPassword(484)) - Creating password for identifier: (TIMELINE_DELEGATION_TOKEN owner=tester, renewer=tester, realUser=tester, issueDate=1669865615930, maxDate=1669865715930, sequenceNumber=1, masterKeyId=2), currentKey: 2
+2022-11-30 21:33:35,945 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:35,946 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:35,983 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 5 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:36,485 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 4 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:36,987 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 3 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:37,489 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 2 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:37,991 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 1 more time(s).
+Message: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort
+2022-11-30 21:33:38,493 INFO  [main] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:createPassword(484)) - Creating password for identifier: (TIMELINE_DELEGATION_TOKEN owner=tester, renewer=tester, realUser=tester, issueDate=1669865618493, maxDate=1669865718493, sequenceNumber=2, masterKeyId=2), currentKey: 2
+2022-11-30 21:33:38,494 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:38,495 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:38,506 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 5 more time(s).
+Message: Connection refused (Connection refused)
+2022-11-30 21:33:39,007 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 4 more time(s).
+Message: Connection refused (Connection refused)
+2022-11-30 21:33:39,509 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 3 more time(s).
+Message: Connection refused (Connection refused)
+2022-11-30 21:33:40,011 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 2 more time(s).
+Message: Connection refused (Connection refused)
+2022-11-30 21:33:40,512 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 1 more time(s).
+Message: Connection refused (Connection refused)
+2022-11-30 21:33:41,019 INFO  [main] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:createPassword(484)) - Creating password for identifier: (TIMELINE_DELEGATION_TOKEN owner=tester, renewer=tester, realUser=tester, issueDate=1669865621019, maxDate=1669865721019, sequenceNumber=3, masterKeyId=2), currentKey: 2
+2022-11-30 21:33:41,020 WARN  [main] conf.Configuration (Configuration.java:get(1575)) - [CTEST][GET-PARAM] yarn.http.policy
+[CTEST][GET-PARAM] yarn.http.policy
+2022-11-30 21:33:41,020 WARN  [main] conf.Configuration (Configuration.java:get(1577)) - [MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+[MYCTEST][GET-PARAM] yarn.http.policy [Result] HTTP_ONLY
+2022-11-30 21:33:41,111 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 5 more time(s).
+Message: Test socketTimeoutException
+2022-11-30 21:33:41,612 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 4 more time(s).
+Message: Test socketTimeoutException
+2022-11-30 21:33:42,113 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 3 more time(s).
+Message: Test socketTimeoutException
+2022-11-30 21:33:42,614 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 2 more time(s).
+Message: Test socketTimeoutException
+2022-11-30 21:33:43,115 INFO  [main] impl.TimelineConnector (TimelineConnector.java:logException(376)) - Exception caught by TimelineClientConnectionRetry, will try 1 more time(s).
+Message: Test socketTimeoutException
+2022-11-30 21:33:43,621 ERROR [Thread[Thread-2,5,main]] delegation.AbstractDelegationTokenSecretManager (AbstractDelegationTokenSecretManager.java:run(799)) - ExpiredTokenRemover received java.lang.InterruptedException: sleep interrupted
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.997 s - in org.apache.hadoop.yarn.client.api.impl.TestTimelineClient
+[INFO] org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.testDelegationTokenOperationsRetry  Time elapsed: 15.826 s
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.575 s
+[INFO] Finished at: 2022-11-30T21:33:44-06:00
+[INFO] ------------------------------------------------------------------------
+
+>>>>[ctest_core] surefire report path: /home/yuanfei2/IDoCT/run_ctest/../../hadoop/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/surefire-reports/TEST-org.apache.hadoop.yarn.client.api.impl.TestTimelineClient.xml
+>>>>[ctest_core] test class outcome: {'{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation': 'https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd', 'version': '3.0', 'name': 'org.apache.hadoop.yarn.client.api.impl.TestTimelineClient', 'time': '15.997', 'tests': '1', 'errors': '0', 'skipped': '0', 'failures': '0'}
+>>>>[ctest_core] unit test outcome: {'name': 'testDelegationTokenOperationsRetry', 'classname': 'org.apache.hadoop.yarn.client.api.impl.TestTimelineClient', 'time': '15.826'}
+>>>>[ctest_core] result to be return:
+org.apache.hadoop.yarn.client.api.impl.TestTimelineClient#testDelegationTokenOperationsRetry with running time 15.826 passed
+>>>>[ctest_core] chdir to /home/yuanfei2/IDoCT/run_ctest/run_ctest
+>>>>[ctest_core] python-timed for running config file: 24.168976306915283
+>>>> cleaning injected configuration from file
+>>>>[ctest_core] The single ctest PASS
+>>>>[ctest_core] total time: 24.170122861862183 seconds

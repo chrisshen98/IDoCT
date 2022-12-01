@@ -106,7 +106,7 @@ INJECTION_PATH = {
         os.path.join(CTEST_HADOOP_DIR, "hadoop-hdfs-project/hadoop-hdfs/target/classes/hdfs-ctest.xml")
     ],
     YARN: [
-        os.path.join(CTEST_HADOOP_DIR, "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/core-ctest.xml")
+        os.path.join(CTEST_HADOOP_DIR, "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/target/classes/yarn-common-ctest.xml")
     ],
     DISTCP: [
         os.path.join(CTEST_HADOOP_DIR, "hadoop-tools/hadoop-distcp/target/classes/distcp-ctest.xml")
